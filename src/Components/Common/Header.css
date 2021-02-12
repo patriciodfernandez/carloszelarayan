@@ -1,0 +1,23 @@
+.efectonav {
+    color: #5882C0;
+    display: inline-block;
+    position: relative; 
+  }
+  
+  .efectonav::before {
+    transition: 300ms;
+    height: 2px;
+    content: "";
+    position: absolute;
+    background-color: #5882C0;
+  }
+  
+  .efectonav::before {
+    width: 0%;
+    bottom: 10px;
+  }
+  
+  .efectonav:hover::before {
+    width: 100%;
+  }
+  

@@ -1,8 +1,27 @@
+body {
+  font-family: "Red Hat Display", sans-serif;
+}
+.bold {
+  font-weight: 900;
+}
+
+.semibold{
+  font-weight:600;
+  font-size: 12px;
+}
+.azul{
+  color:#5882c0;
+}
+
+.fondogradiente {
+  background-color: #5882c0;
+  background-image: linear-gradient(90deg, #5882c0 0%, #302e7d 100%);  
+}
 #whatsapp {
-    width: 100px;
-    position: fixed;
-    z-index: 9;
-    bottom: 40px;
-    left: 25px;
-    border-radius: 50%;
-  }
+  width: 100px;
+  position: fixed;
+  z-index: 9;
+  bottom: 40px;
+  left: 25px;
+  border-radius: 50%;
+}
