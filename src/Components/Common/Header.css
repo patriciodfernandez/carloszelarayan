@@ -31,3 +31,9 @@
 .efectonav:hover::before {
   width: 100%;
 }
+
+.subrayado{
+  text-decoration: underline;
+  text-decoration-color: #5885c7;
+  text-decoration-thickness: 2px;
+}

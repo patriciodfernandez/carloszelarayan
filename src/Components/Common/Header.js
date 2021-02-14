@@ -3,6 +3,7 @@ import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import './Header.css';
 import logo from "../../assets/images/Logo_PNG_Medium.png";
+import './Header.css';
 
 const Header = () => {
     return (

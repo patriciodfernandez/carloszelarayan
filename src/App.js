@@ -5,6 +5,8 @@ import Inicio from "./Components/Principal/Inicio";
 import Header from "./Components/Common/Header";
 import Footer from "./Components/Common/Footer"
 import Whatsapp from "./Components/Common/Whatsapp";
+import Equipos from "./Components/Equipos"
+import Servicios from "./Components/Servicios"
 import Contacto from "./Components/Contacto"
 import './App.css';
 
@@ -16,6 +18,12 @@ function App() {
       <Switch>
         <Route exact path="/">
           <Inicio></Inicio>
+        </Route>
+        <Route exact path="/equipos">
+          <Equipos></Equipos>
+        </Route>
+        <Route exact path="/servicios">
+          <Servicios></Servicios>
         </Route>
         <Route exact path="/contacto">
           <Contacto></Contacto>

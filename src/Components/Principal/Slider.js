@@ -10,16 +10,48 @@ const Slider = () => {
     <div className="mb-5" id="inicio">
       <Carousel>
         <Carousel.Item>
-          <img className="d-block w-100" src={slider1} alt="Imagen 1" />
+          <img
+            className="d-block w-100"
+            src={slider1}
+            alt="First slide"
+          />
+          <Carousel.Caption>
+            <h3 className="text-left"><b>PROVEEDOR</b></h3>
+            <h3 className="text-left subrayado">DE SOLUCIONES</h3>
+          </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
-          <img className="d-block w-100" src={slider2} alt="Imagen 2" />
+          <img
+            className="d-block w-100"
+            src={slider2}
+            alt="Third slide"
+          />
+          <Carousel.Caption>
+            <h3 className="text-left"><b>CONOCÉ</b></h3>
+            <h3 className="text-left subrayado">NUESTROS EQUIPOS</h3>
+          </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
-          <img className="d-block w-100" src={slider3} alt="Imagen 3" />
+          <img
+            className="d-block w-100"
+            src={slider3}
+            alt="Third slide"
+          />
+          <Carousel.Caption>
+            <h3 className="text-left"><b>CONOCÉ</b></h3>
+            <h3 className="text-left subrayado">NUESTROS SERVICIOS</h3>
+          </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
-          <img className="d-block w-100" src={slider4} alt="Imagen 4" />
+          <img
+            className="d-block w-100"
+            src={slider4}
+            alt="Third slide"
+          />
+          <Carousel.Caption>
+            <h3 className="text-left"><b>ESTAMOS</b></h3>
+            <h3 className="text-left subrayado">PARA AYUDARTE</h3>
+          </Carousel.Caption>
         </Carousel.Item>
       </Carousel>
     </div>
