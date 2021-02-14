@@ -9,8 +9,8 @@ const Header = () => {
       <div  className="header w-100">
       <Navbar  collapseOnSelect expand="lg" className="transparente">
         <div className="container py-1">
-          <Nav.Link exact={true} href="/">
-            <img src={logo} alt="logo del NavBar" width="160px" className="solido"></img>
+          <Nav.Link exact={true} href="/" className="solido">
+            <img src={logo} alt="logo del NavBar" width="160px"></img>
           </Nav.Link>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">

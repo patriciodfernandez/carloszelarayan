@@ -1,11 +1,12 @@
 import React from "react";
+import captura from "../../assets/Captura.JPG";
 
 const QuienesSomos = () => {
   return (
     <div>
       {/* QUIENES SOMOS */}
       <div className="row no-gutters my-5">
-        <div className="col-md-4 pr-5 my-0 fondogradiente"></div>
+        <div className="col-md-4 my-0 pr-5"><img src={captura} alt="" className="w-100 nosm noxs" height="50px"></img></div>
         <h2 className="col-md-4 text-center">QUIENES <b>SOMOS</b></h2>
         <div className="col-md-4"></div>
       </div>
@@ -26,7 +27,7 @@ const QuienesSomos = () => {
       <div className="row no-gutters my-5">
         <div className="col-md-4"></div>
         <h2 className="col-md-4 text-center">INFRAESTRUCTURA <b>IT</b></h2>
-        <div className="col-md-4 fondogradiente"></div>
+        <div className="col-md-4 text-right pl-5"><img src={captura} alt="" className="w-100 nosm noxs" height="50px"></img></div>
       </div>
       <section className="row no-gutters gris">
         <div className="col-md-6 col-sm-12">
@@ -43,7 +44,7 @@ const QuienesSomos = () => {
       {/* ALGUNOS CLIENTES */}
       <section className="gris py-5 mt-5">
         <div className="row no-gutters my-5">
-          <div className="col-md-4 fondogradiente"></div>
+          <div className="col-md-4 pr-5"><img src={captura} alt="" className="w-100 nosm noxs" height="50px"></img></div>
           <h2 className="col-md-4 text-center">ALGUNOS DE NUESTROS <b>CLIENTES</b></h2>
           <div className="col-md-4"></div>
         </div>
@@ -71,9 +72,9 @@ const QuienesSomos = () => {
       <div className="row no-gutters my-5">
         <div className="col-md-4"></div>
         <h2 className="col-md-4 text-center">¿DONDE <b>ESTAMOS?</b></h2>
-        <div className="col-md-4 fondogradiente"></div>
+        <div className="col-md-4 text-right pl-5"><img src={captura} alt="" className="w-100 nosm noxs" height="50px"></img></div>
       </div>
-      <div className="text-center container">
+      <div className="text-center m-0 p-0">
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3560.5290735114772!2d-65.23711038529646!3d-26.823119595933182!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94225c5ee0a47ceb%3A0x8e015b8db3a3570a!2sCastelli%2069%2C%20San%20Miguel%20de%20Tucum%C3%A1n%2C%20Tucum%C3%A1n!5e0!3m2!1ses!2sar!4v1613153832755!5m2!1ses!2sar"
           className="mb-5 nomd nosm noxs"
@@ -86,7 +87,7 @@ const QuienesSomos = () => {
         ></iframe>
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3560.5290735114772!2d-65.23711038529646!3d-26.823119595933182!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94225c5ee0a47ceb%3A0x8e015b8db3a3570a!2sCastelli%2069%2C%20San%20Miguel%20de%20Tucum%C3%A1n%2C%20Tucum%C3%A1n!5e0!3m2!1ses!2sar!4v1613153832755!5m2!1ses!2sar"
-          className="mb-5 nolg noxl nosm noxs w-100"
+          className="mb-5 nolg noxl nosm noxs w-100 px-5"
           height="450"
           frameborder="0"
           allowfullscreen=""
