@@ -135,7 +135,7 @@ const Footer = () => {
       </div>
       {/* FOOTER CELESTE */}
       <div className="fondogradiente">
-        <p className="pl-5 py-2 text-light letrachica m-0">
+        <p className="pl-5 ml-3 py-2 text-light letrachica m-0">
           Copyright 2021 <b>| Agencia Katana</b>
         </p>
       </div>
