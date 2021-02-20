@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Inicio from "./Components/Principal/Inicio";
 import Header from "./Components/Common/Header";
+import Slider from "./Components/Principal/Slider"
 import Footer from "./Components/Common/Footer"
 import Whatsapp from "./Components/Common/Whatsapp";
 import Equipos from "./Components/Equipos"
