@@ -41,7 +41,7 @@ body {
   }
   .justificado{
     text-align: left;
-    margin-left: 50px;
+    padding-left: 50px;
   }
 }
 
@@ -52,7 +52,7 @@ body {
   }
   .justificado{
     text-align: left;
-    margin-left: 50px;
+    padding-left: 50px;
   }
 }
 
@@ -69,11 +69,27 @@ body {
   .nolg {
     display: none;
   }
+  .formcontacto{
+    padding-right: 80px;
+    padding-left: 80px;
+    padding-top:50px;
+  }
+  .margencontacto{
+    margin-top: 20px;
+  }
 }
 
 /*XTRA LARGE DEVICES*/
 @media all and (min-width: 1200px) {
   .noxl {
     display: none;
+  }
+  .formcontacto{
+    padding-right: 80px;
+    padding-left: 80px;
+    padding-top:50px;
+  }
+  .margencontacto{
+    margin-top: 20px;
   }
 }
