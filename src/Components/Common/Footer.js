@@ -2,23 +2,33 @@ import React from "react";
 import logo from "../../assets/images/Logo_PNG_Medium1.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
-  faFacebookSquare,
-  faInstagram,
   faWhatsapp,
 } from "@fortawesome/free-brands-svg-icons";
 import Nav from "react-bootstrap/Nav";
 import "./Footer.css";
+import flecha from "../../assets/Icono_02.png";
+import fondofoot from "../../assets/images/Footer.jpg"
 
 const Footer = () => {
   return (
     <div>
+      <Nav.Link exact={true} href="/VARIABLE#top">
+        <div className="text-right p-4">
+          <img
+            src={flecha}
+            height="60px"
+            width="60px"
+            alt="flecha, toca para volver arriba"
+          ></img>
+        </div>
+      </Nav.Link>
       {/* FOOTER OSCURO */}
-      <div className="negro text-light">
-        <div className="container py-4 justificado">
+      <div className="negro text-light" style={{ backgroundImage: `url(${fondofoot})`}}>
+        <div className="container py-5 justificado">
           <div className="row">
             {/* COL 1 */}
             <div className="col-sm-12 col-md-3 mt-0 mb-2">
-              <Nav.Link exact={true} href="/inicio" className="px-0 nomd">
+              <Nav.Link exact={true} href="/#inicio" className="px-0 nomd">
                 <img
                   src={logo}
                   alt="logo del Footer"
@@ -26,7 +36,11 @@ const Footer = () => {
                   className="mb-2"
                 ></img>
               </Nav.Link>
-              <Nav.Link exact={true} href="/inicio" className="px-0 noxs nosm nolg noxl">
+              <Nav.Link
+                exact={true}
+                href="/#inicio"
+                className="px-0 noxs nosm nolg noxl"
+              >
                 <img
                   src={logo}
                   alt="logo del Footer"
@@ -38,7 +52,7 @@ const Footer = () => {
                 <li>
                   <Nav.Link
                     exact={true}
-                    href="/"
+                    href="/#inicio"
                     className="nav-link text-light mb-1 mx-0 p-0 efectofoot"
                   >
                     INICIO
@@ -124,9 +138,7 @@ const Footer = () => {
                 className="nav-link text-light p-0"
               >
                 <p className="casisemibold azul mb-2">CORREO</p>
-                <p className="letrachica">
-                  carloszelarayan@sinectis.com.ar
-                </p>
+                <p className="letrachica">carloszelarayan@sinectis.com.ar</p>
               </Nav.Link>
             </div>
             {/* FIN COL 2 los otros dos divs son row, container, bg-dark */}
@@ -135,7 +147,7 @@ const Footer = () => {
       </div>
       {/* FOOTER CELESTE */}
       <div className="fondogradiente">
-        <p className="pl-5 ml-3 py-2 text-light letrachica m-0">
+        <p className="pl-5 ml-5 py-3 text-light letrachica m-0">
           Copyright 2021 <b>| Agencia Katana</b>
         </p>
       </div>

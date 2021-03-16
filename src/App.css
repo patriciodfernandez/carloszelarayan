@@ -11,11 +11,18 @@ body {
 .azul{
   color:#5885C0;
 }
+
 .gris{
   background-color:#D8D8D8;
 }
 .negro{
   background-color: #202020;
+}
+.negroo{
+  background-color: black;
+}
+.rojo{
+  color: #CC3A31
 }
 
 .fondogradiente {
@@ -26,11 +33,19 @@ body {
   width: 100px;
   position: fixed;
   z-index: 9;
-  bottom: 40px;
+  bottom: 20px;
   left: 25px;
   border-radius: 50%;
 }
-
+#botonenviar{
+  background-color:#5885C0;
+  border: none;
+  border-radius: 0;
+}
+.forms{
+  border-radius: 0;
+  border-color: black;
+}
 
 /*MEDIA QUERIES*/
 
@@ -43,6 +58,17 @@ body {
     text-align: left;
     padding-left: 50px;
   }
+  .margencontactoo{
+    margin-left:10px;
+  }
+  .carousel-caption{
+    position: absolute;
+    top: 60px;
+    left: 70px;
+    }
+    .ancestro{
+      position: relative;
+    }
 }
 
 /*SMALL DEVICES*/
@@ -54,14 +80,29 @@ body {
     text-align: left;
     padding-left: 50px;
   }
+   .carousel-caption{
+    position: absolute;
+    top: 270px;
+    left: 170px;
+    } 
+    .ancestro{
+      position: relative;
+    }
 }
 
 /*MEDIUM DEVICES*/
-@media all and (min-width: 768px) and (max-width: 991px) {
+@media all and (min-width: 767px) and (max-width: 991px) {
   .nomd {
     display: none;
   }
-  
+  .carousel-caption{
+    position: absolute;
+    top: 150px;
+    left: 90px;
+    }
+    .ancestro{
+      position: relative;
+    }
 }
 
 /*LARGE DEVICES*/
@@ -77,6 +118,20 @@ body {
   .margencontacto{
     margin-top: 20px;
   }
+  .carousel-caption{
+  position: absolute;
+  top: 270px;
+  left: 170px;
+  } 
+  .ancestro{
+    position: relative;
+  }
+  .margenlg{
+    margin-left:200px;
+  } 
+  .margencontactoo{
+    margin-left:90px;
+  }
 }
 
 /*XTRA LARGE DEVICES*/
@@ -91,5 +146,16 @@ body {
   }
   .margencontacto{
     margin-top: 20px;
+  }
+  .carousel-caption{
+  position: absolute;
+  top: 270px;
+  left: 170px;
+  }
+  .ancestro{
+    position: relative;
+  }
+  .margencontactoo{
+    margin-left:90px;
   }
 }
