@@ -10,9 +10,12 @@ import flecha from "../../assets/Icono_02.png";
 import fondofoot from "../../assets/images/Footer.jpg"
 
 const Footer = () => {
+  function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;}
   return (
     <div>
-      <Nav.Link exact={true} href="/VARIABLE#top">
+      <Nav.Link exact={true} onClick={topFunction}>
         <div className="text-right p-4">
           <img
             src={flecha}

@@ -4,26 +4,30 @@ import afga from "../../assets/Quienes_Somos.jpg";
 import afgamd from "../../assets/Quienes_Somosmd.jpg";
 import infraestructura from "../../assets/Infraestructura_IT.jpg";
 import infraestructuramd from "../../assets/Infraestructura_ITmd.jpg";
-import logo1 from "../../assets/Logo_01.png";
-import logo2 from "../../assets/Logo_02.png";
-import logo3 from "../../assets/Logo_03.png";
-import logo4 from "../../assets/Logo_04.png";
-import logo5 from "../../assets/Logo_05.png";
+import logo1 from "../../assets/images/Logo_01.png";
+import logo2 from "../../assets/images/Logo_02.png";
+import logo3 from "../../assets/images/Logo_03.png";
+import logo4 from "../../assets/images/Logo_04.png";
+import logo5 from "../../assets/images/Logo_05.png";
 
 const QuienesSomos = () => {
   return (
     <div>
       {/* QUIENES SOMOS */}
       <div className="row no-gutters my-4 py-5">
-        <img
-          src={captura}
-          alt=""
-          className="w-80 nosm noxs my-0"
-          height="50px"
-        ></img>
-        <h2>
-          QUIENES <b>SOMOS</b>
-        </h2>
+        <div className="col-md-4 text-left">
+          <img
+            src={captura}
+            alt=""
+            className="w-80 nosm noxs my-0"
+            height="50px"
+          ></img>
+        </div>
+        <div className="col-md-8 text-left">
+          <h2>
+            QUIENES <b>SOMOS</b>
+          </h2>
+        </div>
       </div>
       <section className="row no-gutters gris">
         <div className="col-md-6 col-sm-12">
@@ -66,7 +70,10 @@ const QuienesSomos = () => {
         </div>
         <div className="col-md-6 col-sm-12">
           <img src={infraestructura} className="w-100 nomd"></img>
-          <img src={infraestructuramd} className="w-100 noxs nosm nolg noxl"></img>
+          <img
+            src={infraestructuramd}
+            className="w-100 noxs nosm nolg noxl"
+          ></img>
         </div>
       </section>
       {/* ALGUNOS CLIENTES */}
@@ -80,7 +87,7 @@ const QuienesSomos = () => {
               height="50px"
             ></img>
           </div>
-          <div className="col-md-8 text-right">
+          <div className="col-md-8 text-left">
             <h2>
               ALGUNOS DE NUESTROS <b>CLIENTES</b>
             </h2>

@@ -2,17 +2,16 @@
   position: absolute;
   z-index: 10;
 }
-.transparente {
-  background-color: #202020;
-  opacity: 50%;
+
+.lineaazul{
+  align-self: start;
 }
-.solido{
-  opacity: 100%!important;
-}
+
 .efectonav {
   color: #5885c7;
   display: inline-block;
   position: relative;
+  align-self:flex-end;
 }
 
 .efectonav::before {

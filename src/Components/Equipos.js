@@ -12,10 +12,28 @@ import rdirecta4 from "../assets/images/RDirecta_04.jpg";
 import rdirecta5 from "../assets/images/RDirecta_05.jpg";
 import rdirecta6 from "../assets/images/RDirecta_06.jpg";
 import rdirecta7 from "../assets/images/RDirecta_07.jpg";
+import Slider2 from "../assets/images/slider_2.jpg";
 
 const Equipos = () => {
   return (
     <div className="mb-5 pb-5">
+      <div className="sliderpadre">
+        <img src={Slider2} className="w-100"></img>
+        <div className="carousel-caption text-light">
+          <div className="nomd nolg noxl">
+            <h4 className="text-left">
+              <b>CONOCÉ</b>
+            </h4>
+            <h4 className="text-left subrayado d-flex">NUESTROS EQUIPOS</h4>
+          </div>
+          <div className="noxs nosm">
+            <h2 className="text-left">
+              <b>CONOCÉ</b>
+            </h2>
+            <h2 className="text-left subrayado">NUESTROS EQUIPOS</h2>
+          </div>
+        </div>
+      </div>
       <h1 className="text-center m-5">
         NUESTROS <b>EQUIPOS</b>
       </h1>

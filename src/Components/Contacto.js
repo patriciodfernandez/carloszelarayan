@@ -74,19 +74,21 @@ const Contacto = () => {
 
   return (
     <div>
-      <img src={Slider4} className="w-100"></img>
-      <div className="carousel-caption text-light">
-        <div className="nomd nolg noxl">
-          <h3 className="text-left">
-            <b>ESTAMOS</b>
-          </h3>
-          <h3 className="text-left subrayado">PARA AYUDARTE</h3>
-        </div>
-        <div className="noxs nosm">
-          <h2 className="text-left">
-            <b>ESTAMOS</b>
-          </h2>
-          <h2 className="text-left subrayado">PARA AYUDARTE</h2>
+      <div className="sliderpadre">
+        <img src={Slider4} className="w-100"></img>
+        <div className="carousel-caption text-light">
+          <div className="nomd nolg noxl">
+            <h4 className="text-left">
+              <b>ESTAMOS</b>
+            </h4>
+            <h4 className="text-left subrayado">PARA AYUDARTE</h4>
+          </div>
+          <div className="noxs nosm">
+            <h2 className="text-left">
+              <b>ESTAMOS</b>
+            </h2>
+            <h2 className="text-left subrayado">PARA AYUDARTE</h2>
+          </div>
         </div>
       </div>
       <div className="row no-gutters">
@@ -201,13 +203,22 @@ const Contacto = () => {
                 <Form.Label className="lead">
                   Escribe tu consulta aquí
                 </Form.Label>
-                <Form.Control required as="textarea" rows={4} className="forms"/>
+                <Form.Control
+                  required
+                  as="textarea"
+                  rows={4}
+                  className="forms"
+                />
               </Form.Group>
               <Form.Text className="text-muted">
                 *No compartiremos estos datos con nadie
               </Form.Text>
               <div className="text-right">
-                <Button type="Submit" id="botonenviar" className="text-light mt-2 btn-lg">
+                <Button
+                  type="Submit"
+                  id="botonenviar"
+                  className="text-light mt-2 btn-lg"
+                >
                   <b>ENVIAR</b>
                 </Button>
               </div>
@@ -261,7 +272,6 @@ const Contacto = () => {
           tabindex="0"
         ></iframe>
       </div>
-      
     </div>
   );
 };

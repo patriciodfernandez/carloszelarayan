@@ -11,7 +11,6 @@ body {
 .azul{
   color:#5885C0;
 }
-
 .gris{
   background-color:#D8D8D8;
 }
@@ -46,6 +45,37 @@ body {
   border-radius: 0;
   border-color: black;
 }
+.sliderpadre{
+  position: relative;
+}
+/* FUENTES */
+.gothambold{
+  font-family: "Gotham Bold";
+}
+@font-face {
+  font-family: "Gotham Bold";
+
+  src: url("/src/fonts/Gotham\ Bold.otf") format("OpenType");
+}
+@font-face {
+  font-family: "Gotham Book";
+
+  src: url("/src/fonts/Gotham\ Book.otf") format("OpenType");
+}
+
+@font-face {
+  font-family: "Gotham Light";
+
+  src: url("/src/fonts/Gotham\ Light.otf") format("OpenType");
+} 
+
+@font-face {
+  font-family: "Gotham Medium";
+
+  src: url("/src/fonts/Gotham\ Medium.otf") format("OpenType");
+}
+
+
 
 /*MEDIA QUERIES*/
 
@@ -63,11 +93,8 @@ body {
   }
   .carousel-caption{
     position: absolute;
-    top: 60px;
-    left: 70px;
-    }
-    .ancestro{
-      position: relative;
+    top: 30px;
+    left: 30px;
     }
 }
 
@@ -82,12 +109,9 @@ body {
   }
    .carousel-caption{
     position: absolute;
-    top: 270px;
-    left: 170px;
+    top: 60px;
+    left: 50px;
     } 
-    .ancestro{
-      position: relative;
-    }
 }
 
 /*MEDIUM DEVICES*/
@@ -99,9 +123,6 @@ body {
     position: absolute;
     top: 150px;
     left: 90px;
-    }
-    .ancestro{
-      position: relative;
     }
 }
 
@@ -123,9 +144,6 @@ body {
   top: 270px;
   left: 170px;
   } 
-  .ancestro{
-    position: relative;
-  }
   .margenlg{
     margin-left:200px;
   } 
@@ -152,10 +170,9 @@ body {
   top: 270px;
   left: 170px;
   }
-  .ancestro{
-    position: relative;
-  }
   .margencontactoo{
     margin-left:90px;
   }
 }
+
+
