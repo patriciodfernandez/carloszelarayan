@@ -23,7 +23,6 @@ body {
 .rojo{
   color: #CC3A31
 }
-
 .fondogradiente {
   background-color: #5885C0;
   background-image: linear-gradient(90deg, #5885C0 0%, #322B7F 100%);  
@@ -74,11 +73,10 @@ body {
 
   src: url("/src/fonts/Gotham\ Medium.otf") format("OpenType");
 }
-
-
-
+.titulos{
+  justify-content: center;
+}
 /*MEDIA QUERIES*/
-
 /*X-SMALL DEVICES PUBLICIDAD*/
 @media all and (max-width: 576px) {
   .noxs {
@@ -96,6 +94,7 @@ body {
     top: 30px;
     left: 30px;
     }
+    
 }
 
 /*SMALL DEVICES*/
@@ -123,6 +122,16 @@ body {
     position: absolute;
     top: 150px;
     left: 90px;
+    }
+    .capturatitulosleft{
+      width: 90px;
+      position: absolute;
+      left:0px;
+    }
+    .capturatitulosright{
+      width: 90px;
+      position: absolute;
+      right:0px;
     }
 }
 

@@ -14,12 +14,12 @@ const QuienesSomos = () => {
   return (
     <div>
       {/* QUIENES SOMOS */}
-      <div className="row no-gutters my-4 py-5">
-        <div className="col-md-4 text-left">
+      <div className="my-4 py-5 row no-gutters titulos">
+        <div className="col-md-4">
           <img
             src={captura}
             alt=""
-            className="w-80 nosm noxs my-0"
+            className="nosm noxs my-0 capturatitulosleft"
             height="50px"
           ></img>
         </div>
@@ -44,17 +44,17 @@ const QuienesSomos = () => {
         </div>
       </section>
       {/* INFRAESTRUCTURA */}
-      <div className="row no-gutters my-4 py-5">
-        <div className="col-md-8 text-right">
+      <div className="my-4 py-5 row no-gutters titulos">
+        <div className="col-lg-8 col-md-9 text-right">
           <h2>
             INFRAESTRUCTURA <b>IT</b>
           </h2>
         </div>
-        <div className="col-md-4 text-right">
+        <div className="col-lg-4 col-md-3 text-right">
           <img
             src={captura}
             alt=""
-            className="w-80 nosm noxs"
+            className="nosm noxs capturatitulosright"
             height="50px"
           ></img>
         </div>
@@ -78,16 +78,16 @@ const QuienesSomos = () => {
       </section>
       {/* ALGUNOS CLIENTES */}
       <section className="gris py-5 my-5">
-        <div className="row no-gutters my-5">
-          <div className="col-md-4">
+        <div className="my-4 py-5 row no-gutters titulos">
+          <div className="col-lg-4 col-md-2">
             <img
               src={captura}
               alt=""
-              className="w-80 nosm noxs"
+              className="nosm noxs capturatitulosleft"
               height="50px"
             ></img>
           </div>
-          <div className="col-md-8 text-left">
+          <div className="col-lg-8 col-md-10 text-left">
             <h2>
               ALGUNOS DE NUESTROS <b>CLIENTES</b>
             </h2>
@@ -118,17 +118,17 @@ const QuienesSomos = () => {
         </h2>
       </section>
       {/* DONDE ESTAMOS */}
-      <div className="row no-gutters my-5 pt-5">
-        <div className="col-md-8 text-right">
+      <div className="my-4 py-5 row no-gutters titulos">
+        <div className="col-lg-8 col-md-9 text-right">
           <h2>
             ¿DONDE <b>ESTAMOS?</b>
           </h2>
         </div>
-        <div className="col-md-4 text-right ">
+        <div className="col-lg-4 col-md-3 text-right ">
           <img
             src={captura}
             alt=""
-            className="w-80 nosm noxs"
+            className="nosm noxs capturatitulosright"
             height="50px"
           ></img>
         </div>
