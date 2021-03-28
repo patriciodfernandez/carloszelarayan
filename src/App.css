@@ -47,6 +47,10 @@ body {
 .sliderpadre {
   position: relative;
 }
+.equiposchicos{
+  align-items: center;
+  justify-content: center;
+}
 /* FUENTES */
 .gothambold {
   font-family: "Gotham Bold";
