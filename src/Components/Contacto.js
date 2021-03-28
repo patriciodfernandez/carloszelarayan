@@ -227,19 +227,16 @@ const Contacto = () => {
         </div>
       </div>
       {/* DONDE ESTAMOS */}
-      <div className="row no-gutters my-5">
-        <div className="col-md-4"></div>
-        <h2 className="col-md-4 text-center">
+      <div className="my-4 py-5 d-flex titulos">
+          <h2>
           ¿DONDE <b>ESTAMOS?</b>
-        </h2>
-        <div className="col-md-4 text-right pl-5">
+          </h2>
           <img
             src={captura}
             alt=""
-            className="w-100 nosm noxs"
+            className="nosm noxs my-0 capturatitulosright"
             height="50px"
           ></img>
-        </div>
       </div>
       <div className="text-center m-0 p-0">
         <iframe

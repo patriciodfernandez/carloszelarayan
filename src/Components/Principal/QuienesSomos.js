@@ -14,20 +14,16 @@ const QuienesSomos = () => {
   return (
     <div>
       {/* QUIENES SOMOS */}
-      <div className="my-4 py-5 row no-gutters titulos">
-        <div className="col-md-4">
+      <div className="my-4 py-5 d-flex titulos">
           <img
             src={captura}
             alt=""
             className="nosm noxs my-0 capturatitulosleft"
             height="50px"
           ></img>
-        </div>
-        <div className="col-md-8 text-left">
           <h2>
             QUIENES <b>SOMOS</b>
           </h2>
-        </div>
       </div>
       <section className="row no-gutters gris">
         <div className="col-md-6 col-sm-12">
@@ -44,20 +40,16 @@ const QuienesSomos = () => {
         </div>
       </section>
       {/* INFRAESTRUCTURA */}
-      <div className="my-4 py-5 row no-gutters titulos">
-        <div className="col-lg-8 col-md-9 text-right">
+      <div className="my-4 py-5 d-flex titulos">
           <h2>
             INFRAESTRUCTURA <b>IT</b>
           </h2>
-        </div>
-        <div className="col-lg-4 col-md-3 text-right">
           <img
             src={captura}
             alt=""
             className="nosm noxs capturatitulosright"
             height="50px"
           ></img>
-        </div>
       </div>
       <section className="row no-gutters gris mb-5">
         <div className="col-md-6 col-sm-12">
@@ -78,20 +70,16 @@ const QuienesSomos = () => {
       </section>
       {/* ALGUNOS CLIENTES */}
       <section className="gris py-5 my-5">
-        <div className="my-4 py-5 row no-gutters titulos">
-          <div className="col-lg-4 col-md-2">
+        <div className="my-4 py-5 d-flex titulos">
             <img
               src={captura}
               alt=""
               className="nosm noxs capturatitulosleft"
               height="50px"
             ></img>
-          </div>
-          <div className="col-lg-8 col-md-10 text-left">
-            <h2>
+            <h2 className="text-center algunosclients">
               ALGUNOS DE NUESTROS <b>CLIENTES</b>
             </h2>
-          </div>
         </div>
         <section className="row no-gutters mb-5">
           <div className="col-md-1 col-sm-12"></div>
@@ -118,20 +106,16 @@ const QuienesSomos = () => {
         </h2>
       </section>
       {/* DONDE ESTAMOS */}
-      <div className="my-4 py-5 row no-gutters titulos">
-        <div className="col-lg-8 col-md-9 text-right">
+      <div className="my-4 py-5 d-flex titulos">
           <h2>
             ¿DONDE <b>ESTAMOS?</b>
           </h2>
-        </div>
-        <div className="col-lg-4 col-md-3 text-right ">
           <img
             src={captura}
             alt=""
             className="nosm noxs capturatitulosright"
             height="50px"
           ></img>
-        </div>
       </div>
       <div className="text-center m-0 p-0">
         <iframe

@@ -13,6 +13,7 @@ import rdirecta5 from "../assets/images/RDirecta_05.jpg";
 import rdirecta6 from "../assets/images/RDirecta_06.jpg";
 import rdirecta7 from "../assets/images/RDirecta_07.jpg";
 import Slider2 from "../assets/images/slider_2.jpg";
+import captura from "../assets/Captura.JPG";
 
 const Equipos = () => {
   return (
@@ -34,12 +35,27 @@ const Equipos = () => {
           </div>
         </div>
       </div>
-      <h1 className="text-center m-5">
-        NUESTROS <b>EQUIPOS</b>
-      </h1>
-      <h2 className="text-center m-5">
+      {/* FIN PORTADA */}
+      <div className="d-flex titulos nuestrosequipos">
+        <img
+          src={captura}
+          alt=""
+          className="nosm noxs my-0 capturatitulosleft"
+          height="50px"
+        ></img>
+        <h1 className="text-center algunosclients nosm noxs">
+          NUESTROS <b>EQUIPOS</b>
+        </h1>
+        <h3 className="text-center nomd nolg noxl">
+          NUESTROS <b>EQUIPOS</b>
+        </h3>
+      </div>
+      <h2 className="text-center mx-5 mb-5 noxs nosm">
         RADIOGRAFÍA <b className="rojo">DIRECTA</b>
       </h2>
+      <h4 className="text-center my-3 nomd nolg noxl">
+        RADIOGRAFÍA <b className="rojo">DIRECTA</b>
+      </h4>
       <Carousel className="noxs nosm">
         <Carousel.Item>
           <img className="d-block w-100" src={rdirecta1} alt="First slide" />
@@ -63,9 +79,12 @@ const Equipos = () => {
           <img className="d-block w-100" src={rdirecta7} alt="Third slide" />
         </Carousel.Item>
       </Carousel>
-      <h2 className="text-center my-5 pt-5">
+      <h2 className="text-center my-5 pt-5 noxs nosm">
         RADIOGRAFÍA <b className="rojo">COMPUTARIZADA</b>
       </h2>
+      <h4 className="text-center my-5 nomd nolg noxl">
+        RADIOGRAFÍA <b className="rojo">COMPUTARIZADA</b>
+      </h4>
       <Carousel className="noxs nosm">
         <Carousel.Item>
           <img className="d-block w-100" src={rcompu1} alt="First slide" />

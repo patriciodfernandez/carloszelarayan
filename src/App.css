@@ -4,28 +4,28 @@ body {
 .bold {
   font-weight: 900;
 }
-.semibold{
-  font-weight:600;
+.semibold {
+  font-weight: 600;
   font-size: 12px;
 }
-.azul{
-  color:#5885C0;
+.azul {
+  color: #5885c0;
 }
-.gris{
-  background-color:#D8D8D8;
+.gris {
+  background-color: #d8d8d8;
 }
-.negro{
+.negro {
   background-color: #202020;
 }
-.negroo{
+.negroo {
   background-color: black;
 }
-.rojo{
-  color: #CC3A31
+.rojo {
+  color: #cc3a31;
 }
 .fondogradiente {
-  background-color: #5885C0;
-  background-image: linear-gradient(90deg, #5885C0 0%, #322B7F 100%);  
+  background-color: #5885c0;
+  background-image: linear-gradient(90deg, #5885c0 0%, #322b7f 100%);
 }
 #whatsapp {
   width: 100px;
@@ -35,20 +35,20 @@ body {
   left: 25px;
   border-radius: 50%;
 }
-#botonenviar{
-  background-color:#5885C0;
+#botonenviar {
+  background-color: #5885c0;
   border: none;
   border-radius: 0;
 }
-.forms{
+.forms {
   border-radius: 0;
   border-color: black;
 }
-.sliderpadre{
+.sliderpadre {
   position: relative;
 }
 /* FUENTES */
-.gothambold{
+.gothambold {
   font-family: "Gotham Bold";
 }
 @font-face {
@@ -66,35 +66,40 @@ body {
   font-family: "Gotham Light";
 
   src: url("/src/fonts/Gotham\ Light.otf") format("OpenType");
-} 
+}
 
 @font-face {
   font-family: "Gotham Medium";
 
   src: url("/src/fonts/Gotham\ Medium.otf") format("OpenType");
 }
-.titulos{
+.titulos {
+  position: relative;
   justify-content: center;
 }
+
 /*MEDIA QUERIES*/
 /*X-SMALL DEVICES PUBLICIDAD*/
 @media all and (max-width: 576px) {
   .noxs {
     display: none;
   }
-  .justificado{
+  .justificado {
     text-align: left;
     padding-left: 50px;
   }
-  .margencontactoo{
-    margin-left:10px;
+  .margencontactoo {
+    margin-left: 10px;
   }
-  .carousel-caption{
+  .carousel-caption {
     position: absolute;
     top: 30px;
     left: 30px;
-    }
-    
+  }
+  .nuestrosequipos{
+    margin-top: 50px;
+    margin-bottom:45px;
+  }
 }
 
 /*SMALL DEVICES*/
@@ -102,15 +107,20 @@ body {
   .nosm {
     display: none;
   }
-  .justificado{
+  .justificado {
     text-align: left;
     padding-left: 50px;
   }
-   .carousel-caption{
+  .carousel-caption {
     position: absolute;
     top: 60px;
     left: 50px;
-    } 
+  }
+  .nuestrosequipos{
+    margin-top: 50px;
+    margin-bottom:45px;
+  }
+
 }
 
 /*MEDIUM DEVICES*/
@@ -118,46 +128,66 @@ body {
   .nomd {
     display: none;
   }
-  .carousel-caption{
+  .carousel-caption {
     position: absolute;
     top: 150px;
     left: 90px;
-    }
-    .capturatitulosleft{
-      width: 90px;
-      position: absolute;
-      left:0px;
-    }
-    .capturatitulosright{
-      width: 90px;
-      position: absolute;
-      right:0px;
-    }
+  }
+  .capturatitulosleft {
+    width: 90px;
+    position: absolute;
+    left: 0px;
+  }
+  .capturatitulosright {
+    width: 90px;
+    position: absolute;
+    right: 0px;
+  }
+  .algunosclients{
+    padding-left:30px;
+  }
+  .nuestrosequipos{
+    padding-left:30px;
+    margin-top: 50px;
+    margin-bottom:45px;
+  }
 }
-
 /*LARGE DEVICES*/
 @media all and (min-width: 991px) and (max-width: 1200px) {
   .nolg {
     display: none;
   }
-  .formcontacto{
+  .formcontacto {
     padding-right: 80px;
     padding-left: 80px;
-    padding-top:50px;
+    padding-top: 50px;
   }
-  .margencontacto{
+  .margencontacto {
     margin-top: 20px;
   }
-  .carousel-caption{
-  position: absolute;
-  top: 270px;
-  left: 170px;
-  } 
-  .margenlg{
-    margin-left:200px;
-  } 
-  .margencontactoo{
-    margin-left:90px;
+  .carousel-caption {
+    position: absolute;
+    top: 270px;
+    left: 170px;
+  }
+  .margenlg {
+    margin-left: 200px;
+  }
+  .margencontactoo {
+    margin-left: 90px;
+  }
+  .capturatitulosleft {
+    position: absolute;
+    left: 0px;
+  }
+  .capturatitulosright {
+    position: absolute;
+    right: 0px;
+  }
+  .nuestrosequipos{
+    padding-left:30px;
+    margin-top: 50px;
+    margin-bottom:55px;
   }
 }
 
@@ -166,22 +196,33 @@ body {
   .noxl {
     display: none;
   }
-  .formcontacto{
+  .formcontacto {
     padding-right: 80px;
     padding-left: 80px;
-    padding-top:50px;
+    padding-top: 50px;
   }
-  .margencontacto{
+  .margencontacto {
     margin-top: 20px;
   }
-  .carousel-caption{
-  position: absolute;
-  top: 270px;
-  left: 170px;
+  .carousel-caption {
+    position: absolute;
+    top: 270px;
+    left: 170px;
   }
-  .margencontactoo{
-    margin-left:90px;
+  .margencontactoo {
+    margin-left: 90px;
+  }
+  .capturatitulosleft {
+    position: absolute;
+    left: 0px;
+  }
+  .capturatitulosright {
+    position: absolute;
+    right: 0px;
+  }
+  .nuestrosequipos{
+    padding-left:30px;
+    margin-top: 50px;
+    margin-bottom:55px;
   }
 }
-
-

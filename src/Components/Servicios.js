@@ -3,6 +3,7 @@ import almacenamiento from "../assets/Servicios_01.jpg";
 import servidores from "../assets/Servicios_02.jpg";
 import digitalizadores from "../assets/Servicios_03.jpg";
 import Slider3 from "../assets/images/slider_3.jpg";
+import captura from "../assets/Captura.JPG";
 
 const Servicios = () => {
   return (
@@ -24,9 +25,22 @@ const Servicios = () => {
           </div>
         </div>
       </div>
-      <h1 className="text-center m-5">
-        NUESTROS <b>SERVICIOS</b>
-      </h1>
+      {/* FIN PORTADA */}
+      <div className="d-flex titulos nuestrosequipos">
+        <img
+          src={captura}
+          alt=""
+          className="nosm noxs my-0 capturatitulosleft"
+          height="50px"
+        ></img>
+        <h1 className="text-center algunosclients nosm noxs">
+          NUESTROS <b>SERVICIOS</b>
+        </h1>
+        <h3 className="text-center nomd nolg noxl">
+          NUESTROS <b>SERVICIOS</b>
+        </h3>
+      </div>
+
       <img src={almacenamiento} className="w-100 mb-5 pb-3"></img>
       <img src={servidores} className="w-100 mb-5 pb-3"></img>
       <img src={digitalizadores} className="w-100 mb-5 pb-3"></img>
