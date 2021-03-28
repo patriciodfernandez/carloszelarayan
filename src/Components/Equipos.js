@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, handleSelect, index, render } from "react";
 import Carousel from "react-bootstrap/Carousel";
 import rcompu1 from "../assets/images/RCompu_01.jpg";
 import rcompu2 from "../assets/images/RCompu_02.jpg";
@@ -15,7 +15,14 @@ import rdirecta7 from "../assets/images/RDirecta_07.jpg";
 import Slider2 from "../assets/images/slider_2.jpg";
 import captura from "../assets/Captura.JPG";
 
+
 const Equipos = () => {
+  function ControlledCarousel() {
+    const [index, setIndex] = useState(0);
+  
+    const handleSelect = (selectedIndex, e) => {
+      setIndex(selectedIndex);
+    };}
   return (
     <div className="mb-5 pb-5">
       <div className="sliderpadre">
@@ -50,13 +57,14 @@ const Equipos = () => {
           NUESTROS <b>EQUIPOS</b>
         </h3>
       </div>
+      {/* ----- */}
       <h2 className="text-center mx-5 mb-5 noxs nosm">
         RADIOGRAFÍA <b className="rojo">DIRECTA</b>
       </h2>
       <h4 className="text-center my-3 nomd nolg noxl">
         RADIOGRAFÍA <b className="rojo">DIRECTA</b>
       </h4>
-      <Carousel className="noxs nosm">
+      <Carousel className="noxs nosm" activeIndex={index} onSelect={handleSelect}>
         <Carousel.Item>
           <img className="d-block w-100" src={rdirecta1} alt="First slide" />
         </Carousel.Item>
@@ -104,6 +112,7 @@ const Equipos = () => {
       </Carousel>
     </div>
   );
+  render(<ControlledCarousel/>);
 };
 
 export default Equipos;
