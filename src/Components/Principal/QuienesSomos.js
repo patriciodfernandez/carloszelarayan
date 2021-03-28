@@ -14,16 +14,19 @@ const QuienesSomos = () => {
   return (
     <div>
       {/* QUIENES SOMOS */}
-      <div className="my-4 py-5 d-flex titulos">
+      <div className="d-flex titulos nuestrosequipos">
         <img
           src={captura}
           alt=""
           className="nosm noxs my-0 capturatitulosleft"
           height="50px"
         ></img>
-        <h2>
+        <h2 className="text-center nosm noxs">
           QUIENES <b>SOMOS</b>
         </h2>
+        <h3 className="text-center nomd nolg noxl">
+          QUIENES <b>SOMOS</b>
+        </h3>
       </div>
       <section className="row no-gutters gris">
         <div className="col-md-6 col-sm-12">
@@ -40,8 +43,8 @@ const QuienesSomos = () => {
         </div>
       </section>
       {/* INFRAESTRUCTURA */}
-      <div className="my-4 py-5 d-flex titulos">
-        <h2>
+      <div className="d-flex titulos nuestrosequipos">
+        <h2 className="text-center nosm noxs">
           INFRAESTRUCTURA <b>IT</b>
         </h2>
         <img
@@ -50,6 +53,9 @@ const QuienesSomos = () => {
           className="nosm noxs capturatitulosright"
           height="50px"
         ></img>
+        <h3 className="text-center nomd nolg noxl">
+          INFRAESTRUCTURA <b>IT</b>
+        </h3>
       </div>
       <section className="row no-gutters gris mb-5">
         <div className="col-md-6 col-sm-12">
@@ -70,18 +76,21 @@ const QuienesSomos = () => {
       </section>
       {/* ALGUNOS CLIENTES */}
       <section className="gris py-5 my-5">
-        <div className="my-4 py-5 d-flex titulos">
+        <div className="d-flex titulos nuestrosequipos">
           <img
             src={captura}
             alt=""
             className="nosm noxs capturatitulosleft"
             height="50px"
           ></img>
-          <h2 className="text-center algunosclients">
+          <h2 className="text-center nosm noxs algunosclients">
             ALGUNOS DE NUESTROS <b>CLIENTES</b>
           </h2>
+          <h3 className="text-center nomd nolg noxl">
+            ALGUNOS DE NUESTROS <b>CLIENTES</b>
+          </h3>
         </div>
-        <div className="row mb-5 nosm noxs">
+        <div className="row no-gutters mb-5 nosm noxs">
           <div className="col-md-1"></div>
           <div className="col-md-2">
             <img src={logo1} className="w-100" alt="logo"></img>
@@ -101,24 +110,24 @@ const QuienesSomos = () => {
           <div className="col-md-1"></div>
         </div>
         <section className="nomd nolg noxl">
-          <div className="row mb-5">
-            <div className="col-sm-6">
+          <div className="row no-gutters">
+            <div className="col-6 pl-3 pr-0">
               <img src={logo1} className="w-100" alt="logo"></img>
             </div>
-            <div className="col-sm-6">
+            <div className="col-6 pl-0 pr-3">
               <img src={logo2} className="w-100" alt="logo"></img>
             </div>
           </div>
-          <div className="row no-gutters mb-5">
-            <div className="col-sm-6">
+          <div className="row no-gutters">
+            <div className="col-6 pl-3 pr-0">
               <img src={logo3} className="w-100" alt="logo"></img>
             </div>
-            <div className="col-sm-6">
+            <div className="col-6 pl-0 pr-3">
               <img src={logo4} className="w-100" alt="logo"></img>
             </div>
           </div>
           <div className="text-center">
-          <img src={logo5} className="w-100" alt="logo"></img>
+            <img src={logo5} className="" alt="logo"></img>
           </div>
         </section>
         <h2 className="text-center px-5 mb-5">
@@ -127,8 +136,8 @@ const QuienesSomos = () => {
         </h2>
       </section>
       {/* DONDE ESTAMOS */}
-      <div className="my-4 py-5 d-flex titulos">
-        <h2>
+      <div className="d-flex titulos nuestrosequipos">
+        <h2 className="text-center nosm noxs">
           ¿DONDE <b>ESTAMOS?</b>
         </h2>
         <img
@@ -137,6 +146,9 @@ const QuienesSomos = () => {
           className="nosm noxs capturatitulosright"
           height="50px"
         ></img>
+        <h3 className="text-center nomd nolg noxl">
+          ¿DONDE <b>ESTAMOS?</b>
+        </h3>
       </div>
       <div className="text-center m-0 p-0">
         <iframe
