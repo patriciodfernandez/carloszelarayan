@@ -48,7 +48,9 @@ body {
   position: relative;
 }
 /* FUENTES */
-/* 
+.gothambold {
+  font-family: "Gotham Bold";
+}
 @font-face {
   font-family: "Gotham Bold";
 
@@ -70,7 +72,7 @@ body {
   font-family: "Gotham Medium";
 
   src: url("/src/fonts/Gotham\ Medium.otf") format("OpenType");
-} */
+}
 .titulos {
   position: relative;
   justify-content: center;

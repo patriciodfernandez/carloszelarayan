@@ -1,0 +1,38 @@
+.positionheader{
+  position: absolute;
+  z-index: 10;
+}
+
+.lineaazul{
+  align-self: start;
+}
+
+.efectonav {
+  color: #5885c7;
+  display: inline-block;
+  position: relative;
+  align-self:flex-end;
+}
+
+.efectonav::before {
+  transition: 300ms;
+  height: 2px;
+  content: "";
+  position: absolute;
+  background-color: #5885c7;
+}
+
+.efectonav::before {
+  width: 0%;
+  bottom: 10px;
+}
+
+.efectonav:hover::before {
+  width: 100%;
+}
+
+.subrayado{
+  text-decoration: underline;
+  text-decoration-color: #5885c7;
+  text-decoration-thickness: 2px;
+}
