@@ -75,8 +75,8 @@ const QuienesSomos = () => {
         </div>
       </section>
       {/* ALGUNOS CLIENTES */}
-      <section className="gris py-5 my-5">
-        <div className="d-flex titulos nuestrosequipos">
+      <section className="gris paddingclients">
+        <div className="d-flex titulos">
           <img
             src={captura}
             alt=""
@@ -126,11 +126,11 @@ const QuienesSomos = () => {
               <img src={logo4} className="w-100" alt="logo"></img>
             </div>
           </div>
-          <div className="text-center">
+          <div className="text-center mb-3">
             <img src={logo5} className="" alt="logo"></img>
           </div>
         </section>
-        <h2 className="text-center px-5 mb-5">
+        <h2 className="text-center px-5">
           Trabajamos con más de <b className="azul">350 clientes</b> en todo el
           país
         </h2>
