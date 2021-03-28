@@ -15,15 +15,15 @@ const QuienesSomos = () => {
     <div>
       {/* QUIENES SOMOS */}
       <div className="my-4 py-5 d-flex titulos">
-          <img
-            src={captura}
-            alt=""
-            className="nosm noxs my-0 capturatitulosleft"
-            height="50px"
-          ></img>
-          <h2>
-            QUIENES <b>SOMOS</b>
-          </h2>
+        <img
+          src={captura}
+          alt=""
+          className="nosm noxs my-0 capturatitulosleft"
+          height="50px"
+        ></img>
+        <h2>
+          QUIENES <b>SOMOS</b>
+        </h2>
       </div>
       <section className="row no-gutters gris">
         <div className="col-md-6 col-sm-12">
@@ -41,15 +41,15 @@ const QuienesSomos = () => {
       </section>
       {/* INFRAESTRUCTURA */}
       <div className="my-4 py-5 d-flex titulos">
-          <h2>
-            INFRAESTRUCTURA <b>IT</b>
-          </h2>
-          <img
-            src={captura}
-            alt=""
-            className="nosm noxs capturatitulosright"
-            height="50px"
-          ></img>
+        <h2>
+          INFRAESTRUCTURA <b>IT</b>
+        </h2>
+        <img
+          src={captura}
+          alt=""
+          className="nosm noxs capturatitulosright"
+          height="50px"
+        ></img>
       </div>
       <section className="row no-gutters gris mb-5">
         <div className="col-md-6 col-sm-12">
@@ -71,34 +71,55 @@ const QuienesSomos = () => {
       {/* ALGUNOS CLIENTES */}
       <section className="gris py-5 my-5">
         <div className="my-4 py-5 d-flex titulos">
-            <img
-              src={captura}
-              alt=""
-              className="nosm noxs capturatitulosleft"
-              height="50px"
-            ></img>
-            <h2 className="text-center algunosclients">
-              ALGUNOS DE NUESTROS <b>CLIENTES</b>
-            </h2>
+          <img
+            src={captura}
+            alt=""
+            className="nosm noxs capturatitulosleft"
+            height="50px"
+          ></img>
+          <h2 className="text-center algunosclients">
+            ALGUNOS DE NUESTROS <b>CLIENTES</b>
+          </h2>
         </div>
-        <section className="row no-gutters mb-5">
-          <div className="col-md-1 col-sm-12"></div>
-          <div className="col-md-2 col-sm-12">
+        <div className="row mb-5 nosm noxs">
+          <div className="col-md-1"></div>
+          <div className="col-md-2">
             <img src={logo1} className="w-100" alt="logo"></img>
           </div>
-          <div className="col-md-2 col-sm-12">
+          <div className="col-md-2">
             <img src={logo2} className="w-100" alt="logo"></img>
           </div>
-          <div className="col-md-2 col-sm-12">
+          <div className="col-md-2">
             <img src={logo3} className="w-100" alt="logo"></img>
           </div>
-          <div className="col-md-2 col-sm-12">
+          <div className="col-md-2">
             <img src={logo4} className="w-100" alt="logo"></img>
           </div>
-          <div className="col-md-2 col-sm-12">
+          <div className="col-md-2">
             <img src={logo5} className="w-100" alt="logo"></img>
           </div>
-          <div className="col-md-1 col-sm-12"></div>
+          <div className="col-md-1"></div>
+        </div>
+        <section className="nomd nolg noxl">
+          <div className="row mb-5">
+            <div className="col-sm-6">
+              <img src={logo1} className="w-100" alt="logo"></img>
+            </div>
+            <div className="col-sm-6">
+              <img src={logo2} className="w-100" alt="logo"></img>
+            </div>
+          </div>
+          <div className="row no-gutters mb-5">
+            <div className="col-sm-6">
+              <img src={logo3} className="w-100" alt="logo"></img>
+            </div>
+            <div className="col-sm-6">
+              <img src={logo4} className="w-100" alt="logo"></img>
+            </div>
+          </div>
+          <div className="text-center">
+          <img src={logo5} className="w-100" alt="logo"></img>
+          </div>
         </section>
         <h2 className="text-center px-5 mb-5">
           Trabajamos con más de <b className="azul">350 clientes</b> en todo el
@@ -107,15 +128,15 @@ const QuienesSomos = () => {
       </section>
       {/* DONDE ESTAMOS */}
       <div className="my-4 py-5 d-flex titulos">
-          <h2>
-            ¿DONDE <b>ESTAMOS?</b>
-          </h2>
-          <img
-            src={captura}
-            alt=""
-            className="nosm noxs capturatitulosright"
-            height="50px"
-          ></img>
+        <h2>
+          ¿DONDE <b>ESTAMOS?</b>
+        </h2>
+        <img
+          src={captura}
+          alt=""
+          className="nosm noxs capturatitulosright"
+          height="50px"
+        ></img>
       </div>
       <div className="text-center m-0 p-0">
         <iframe
