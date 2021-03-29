@@ -1,10 +1,5 @@
 import React, { useState, handleSelect, index, render } from "react";
 import Carousel from "react-bootstrap/Carousel";
-import rcompu1 from "../assets/images/RCompu_01.jpg";
-import rcompu2 from "../assets/images/RCompu_02.jpg";
-import rcompu3 from "../assets/images/RCompu_03.jpg";
-import rcompu4 from "../assets/images/RCompu_04.jpg";
-import rcompu5 from "../assets/images/RCompu_05.jpg";
 import rdirecta1 from "../assets/images/RDirecta_01.jpg";
 import rdirecta2 from "../assets/images/RDirecta_02.jpg";
 import rdirecta3 from "../assets/images/RDirecta_03.jpg";
@@ -12,10 +7,13 @@ import rdirecta4 from "../assets/images/RDirecta_04.jpg";
 import rdirecta5 from "../assets/images/RDirecta_05.jpg";
 import rdirecta6 from "../assets/images/RDirecta_06.jpg";
 import rdirecta7 from "../assets/images/RDirecta_07.jpg";
+import rcompu1 from "../assets/images/RCompu_01.jpg";
+import rcompu2 from "../assets/images/RCompu_02.jpg";
+import rcompu3 from "../assets/images/RCompu_03.jpg";
+import rcompu4 from "../assets/images/RCompu_04.jpg";
+import rcompu5 from "../assets/images/RCompu_05.jpg";
 import Slider2 from "../assets/images/slider_2.jpg";
 import captura from "../assets/Captura.JPG";
-import capturar from "../assets/Capturar.JPG";
-import afga from "../assets/images/Agfa_01.png";
 import RDire01 from "../assets/small/RDirecta_01.jpg";
 import RDire02 from "../assets/small/RDirecta_02.jpg";
 import RDire03 from "../assets/small/RDirecta_03.jpg";
@@ -30,6 +28,18 @@ import RDire4 from "../assets/small/RDirecta_4.jpg";
 import RDire5 from "../assets/small/RDirecta_5.jpg";
 import RDire6 from "../assets/small/RDirecta_6.jpg";
 import RDire7 from "../assets/small/RDirecta_7.jpg";
+import RCompu01 from "../assets/small/RCompu_01.jpg"
+import RCompu02 from "../assets/small/RCompu_02.jpg"
+import RCompu03 from "../assets/small/RCompu_03.jpg"
+import RCompu04 from "../assets/small/RCompu_04.jpg"
+import RCompu05 from "../assets/small/RCompu_05.jpg"
+import RCompu1 from "../assets/small/RCompu_1.jpg"
+import RCompu2 from "../assets/small/RCompu_2.jpg"
+import RCompu3 from "../assets/small/RCompu_3.jpg"
+import RCompu4 from "../assets/small/RCompu_4.jpg"
+import RCompu5 from "../assets/small/RCompu_5.jpg"
+
+
 
 const Equipos = () => {
   function ControlledCarousel() {
@@ -118,9 +128,9 @@ const Equipos = () => {
           <Carousel.Item>
             <img className="d-block w-100" src={RDire01} alt="DX-D 100 +" />
           </Carousel.Item>
-          {/* <Carousel.Item>
+          <Carousel.Item>
             <img className="d-block w-100" src={RDire1} alt="DX-D 100 + INFO" />
-          </Carousel.Item> */}
+          </Carousel.Item>
         </Carousel>
         <div className="container d-flex equiposchicos p-3">
           <h4 className="azul">
@@ -234,10 +244,10 @@ const Equipos = () => {
         </div>
         <Carousel activeIndex={index} onSelect={handleSelect}>
           <Carousel.Item>
-            <img className="d-block w-100" src={RDire01} alt="DX-M" />
+            <img className="d-block w-100" src={RCompu01} alt="DX-M" />
           </Carousel.Item>
           {/* <Carousel.Item>
-            <img className="d-block w-100" src={RDire1} alt="DX-M INFO" />
+            <img className="d-block w-100" src={RCompu1} alt="DX-M INFO" />
           </Carousel.Item> */}
         </Carousel>
         <div className="container d-flex equiposchicos p-3">
@@ -247,23 +257,23 @@ const Equipos = () => {
         </div>
         <Carousel activeIndex={index} onSelect={handleSelect}>
           <Carousel.Item>
-            <img className="d-block w-100" src={RDire02} alt="CR 30-Xm" />
+            <img className="d-block w-100" src={RCompu02} alt="CR 30-Xm" />
           </Carousel.Item>
           {/* <Carousel.Item>
-            <img className="d-block w-100" src={RDire2} alt="CR 30-Xm info" />
+            <img className="d-block w-100" src={RCompu2} alt="CR 30-Xm info" />
           </Carousel.Item> */}
         </Carousel>
         <div className="container d-flex equiposchicos p-3">
           <h4 className="rojo">
-            <b>CR 15-m</b>
+            <b>CR 15-X</b>
           </h4>
         </div>
         <Carousel activeIndex={index} onSelect={handleSelect}>
           <Carousel.Item>
-            <img className="d-block w-100" src={RDire03} alt="CR 15-m" />
+            <img className="d-block w-100" src={RCompu03} alt="CR 15-m" />
           </Carousel.Item>
           {/* <Carousel.Item>
-            <img className="d-block w-100" src={RDire3} alt="CR 15-m info" />
+            <img className="d-block w-100" src={RCompu3} alt="CR 15-m info" />
           </Carousel.Item> */}
         </Carousel>
         <div className="container d-flex equiposchicos p-3">
@@ -273,10 +283,10 @@ const Equipos = () => {
         </div>
         <Carousel activeIndex={index} onSelect={handleSelect}>
           <Carousel.Item>
-            <img className="d-block w-100" src={RDire04} alt="CR 12-X" />
+            <img className="d-block w-100" src={RCompu04} alt="CR 12-X" />
           </Carousel.Item>
           {/* <Carousel.Item>
-            <img className="d-block w-100" src={RDire4} alt="CR 12-X info" />
+            <img className="d-block w-100" src={RCompu4} alt="CR 12-X info" />
           </Carousel.Item> */}
         </Carousel>
         <div className="container d-flex equiposchicos p-3">
@@ -286,10 +296,10 @@ const Equipos = () => {
         </div>
         <Carousel activeIndex={index} onSelect={handleSelect}>
           <Carousel.Item>
-            <img className="d-block w-100" src={RDire05} alt="CR 10-X" />
+            <img className="d-block w-100" src={RCompu05} alt="CR 10-X" />
           </Carousel.Item>
           {/* <Carousel.Item>
-            <img className="d-block w-100" src={RDire5} alt="CR 10-X info" />
+            <img className="d-block w-100" src={RCompu5} alt="CR 10-X info" />
           </Carousel.Item> */}
         </Carousel>
       </div>
