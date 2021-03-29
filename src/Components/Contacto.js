@@ -21,6 +21,7 @@ const Contacto = () => {
   const [telefonoConsultor, setTelefonoConsultor] = useState("");
   const [emailConsultor, setEmailConsultor] = useState("");
   const [error, setError] = useState(false);
+  const [consultaConsultor, setConsultaConsultor] = useState("");
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -42,14 +43,25 @@ const Contacto = () => {
         emailConsultor: emailConsultor,
       };
       //Enviamos los datos a backend - NO IMPLEMENTADO
-      emailjs
-        .sendForm(
-          "allservice",
-          "template_MeHMf7Af",
-          e.target,
-          "user_nywctwSrox7g34oEeJ7uY"
-        )
-        .then(
+      // emailjs
+      //   .sendForm(
+      //     "allservice",
+      //     "template_MeHMf7Af",
+      //     e.target,
+      //     "user_nywctwSrox7g34oEeJ7uY"
+      //   )
+      const template_params = {
+        to_name: "ALLSERVICE",
+        from_name: nombreConsultor,
+        user_email: emailConsultor,
+        message_html: `Telefono: ${telefonoConsultor} -
+         Email: ${emailConsultor} -
+         Consulta: ${consultaConsultor}`,
+      };
+      const service_id = "all_service";
+      const template_id = "template_eaf4j5h";
+      const user_id = "user_yUuRb4z5ygsanNtehIgfC";
+      emailjs.send(service_id, template_id, template_params,user_id ).then(
           (result) => {
             Swal.fire(
               "Enhorabuena!",
@@ -165,6 +177,7 @@ const Contacto = () => {
               </Alert>
             ) : null}
             <Form noValidate validated={validated} onSubmit={handleSubmit}>
+            <input type="hidden" name="contact_number" />
               <Form.Group controlId="fullName">
                 <Form.Label className="lead">Apellido y Nombre</Form.Label>
                 <Form.Control
@@ -176,7 +189,6 @@ const Contacto = () => {
                   className="forms"
                 />
               </Form.Group>
-              <Form.Group controlId="direccion"></Form.Group>
               <Form.Group controlId="teléfono">
                 <Form.Label className="lead">Teléfono</Form.Label>
                 <Form.Control
@@ -208,6 +220,8 @@ const Contacto = () => {
                   as="textarea"
                   rows={4}
                   className="forms"
+                  name="message" 
+                  onChange={(e) => setConsultaConsultor(e.target.value)}
                 />
               </Form.Group>
               <Form.Text className="text-muted">
