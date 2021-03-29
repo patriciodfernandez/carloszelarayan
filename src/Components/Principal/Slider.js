@@ -9,7 +9,7 @@ import Nav from "react-bootstrap/Nav";
 const Slider = () => {
   return (
     <div className="mb-5" id="inicio">
-      <Carousel>
+      <Carousel indicators={false}>
         <Carousel.Item>
           <img className="d-block w-100" src={slider1} alt="First slide" />
           <Carousel.Caption className="carousel-caption">

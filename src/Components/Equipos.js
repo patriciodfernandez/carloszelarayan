@@ -90,7 +90,7 @@ const Equipos = () => {
       <h4 className="text-center my-3 nomd nolg noxl">
         RADIOGRAFÍA <b className="azul">DIRECTA</b>
       </h4>
-      <Carousel
+      <Carousel indicators={false}
         className="noxs nosm"
         activeIndex={index}
         onSelect={handleSelect}
@@ -124,7 +124,7 @@ const Equipos = () => {
             <b>DX-D 100 +</b>
           </h4>
         </div>
-        <Carousel activeIndex={index} onSelect={handleSelect}>
+        <Carousel indicators={false} activeIndex={index} onSelect={handleSelect}>
           <Carousel.Item>
             <img className="d-block w-100" src={RDire01} alt="DX-D 100 +" />
           </Carousel.Item>
@@ -137,7 +137,7 @@ const Equipos = () => {
             <b>DX-D 300</b>
           </h4>
         </div>
-        <Carousel activeIndex={index} onSelect={handleSelect}>
+        <Carousel indicators={false} activeIndex={index} onSelect={handleSelect}>
           <Carousel.Item>
             <img className="d-block w-100" src={RDire02} alt="DX-D 300" />
           </Carousel.Item>
@@ -150,7 +150,7 @@ const Equipos = () => {
             <b>DR 400</b>
           </h4>
         </div>
-        <Carousel activeIndex={index} onSelect={handleSelect}>
+        <Carousel indicators={false} activeIndex={index} onSelect={handleSelect}>
           <Carousel.Item>
             <img className="d-block w-100" src={RDire03} alt="DR 400" />
           </Carousel.Item>
@@ -163,7 +163,7 @@ const Equipos = () => {
             <b>DX-D 400</b>
           </h4>
         </div>
-        <Carousel activeIndex={index} onSelect={handleSelect}>
+        <Carousel indicators={false} activeIndex={index} onSelect={handleSelect}>
           <Carousel.Item>
             <img className="d-block w-100" src={RDire04} alt="DX-D 400" />
           </Carousel.Item>
@@ -176,7 +176,7 @@ const Equipos = () => {
             <b>DR 600</b>
           </h4>
         </div>
-        <Carousel activeIndex={index} onSelect={handleSelect}>
+        <Carousel indicators={false} activeIndex={index} onSelect={handleSelect}>
           <Carousel.Item>
             <img className="d-block w-100" src={RDire05} alt="DR 600" />
           </Carousel.Item>
@@ -189,7 +189,7 @@ const Equipos = () => {
             <b>DX-D 600</b>
           </h4>
         </div>
-        <Carousel activeIndex={index} onSelect={handleSelect}>
+        <Carousel indicators={false} activeIndex={index} onSelect={handleSelect}>
           <Carousel.Item>
             <img className="d-block w-100" src={RDire06} alt="DX-D 600" />
           </Carousel.Item>
@@ -202,7 +202,7 @@ const Equipos = () => {
             <b>DX-D 800</b>
           </h4>
         </div>
-        <Carousel activeIndex={index} onSelect={handleSelect}>
+        <Carousel indicators={false} activeIndex={index} onSelect={handleSelect}>
           <Carousel.Item>
             <img className="d-block w-100" src={RDire07} alt="DX-D 800" />
           </Carousel.Item>
@@ -218,7 +218,7 @@ const Equipos = () => {
       <h4 className="text-center my-5 nomd nolg noxl">
         RADIOGRAFÍA <b className="rojo">COMPUTARIZADA</b>
       </h4>
-      <Carousel className="noxs nosm">
+      <Carousel indicators={false} className="noxs nosm">
         <Carousel.Item>
           <img className="d-block w-100" src={rcompu1} alt="First slide" />
         </Carousel.Item>
@@ -242,7 +242,7 @@ const Equipos = () => {
             <b>DX-M</b>
           </h4>
         </div>
-        <Carousel activeIndex={index} onSelect={handleSelect}>
+        <Carousel indicators={false} activeIndex={index} onSelect={handleSelect}>
           <Carousel.Item>
             <img className="d-block w-100" src={RCompu01} alt="DX-M" />
           </Carousel.Item>
@@ -255,7 +255,7 @@ const Equipos = () => {
             <b>CR 30-Xm</b>
           </h4>
         </div>
-        <Carousel activeIndex={index} onSelect={handleSelect}>
+        <Carousel indicators={false} activeIndex={index} onSelect={handleSelect}>
           <Carousel.Item>
             <img className="d-block w-100" src={RCompu02} alt="CR 30-Xm" />
           </Carousel.Item>
@@ -268,7 +268,7 @@ const Equipos = () => {
             <b>CR 15-X</b>
           </h4>
         </div>
-        <Carousel activeIndex={index} onSelect={handleSelect}>
+        <Carousel indicators={false} activeIndex={index} onSelect={handleSelect}>
           <Carousel.Item>
             <img className="d-block w-100" src={RCompu03} alt="CR 15-m" />
           </Carousel.Item>
@@ -281,7 +281,7 @@ const Equipos = () => {
             <b>CR 12-X</b>
           </h4>
         </div>
-        <Carousel activeIndex={index} onSelect={handleSelect}>
+        <Carousel indicators={false} activeIndex={index} onSelect={handleSelect}>
           <Carousel.Item>
             <img className="d-block w-100" src={RCompu04} alt="CR 12-X" />
           </Carousel.Item>
@@ -294,7 +294,7 @@ const Equipos = () => {
             <b>CR 10-X</b>
           </h4>
         </div>
-        <Carousel activeIndex={index} onSelect={handleSelect}>
+        <Carousel indicators={false} activeIndex={index} onSelect={handleSelect}>
           <Carousel.Item>
             <img className="d-block w-100" src={RCompu05} alt="CR 10-X" />
           </Carousel.Item>
