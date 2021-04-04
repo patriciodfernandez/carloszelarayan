@@ -31,8 +31,8 @@ body {
   width: 100px;
   position: fixed;
   z-index: 9;
-  bottom: 20px;
-  left: 25px;
+  bottom: 10px;
+  left: 10px;
   border-radius: 50%;
 }
 #botonenviar {
@@ -101,7 +101,7 @@ html{
   .carousel-caption {
     position: absolute;
     top: 30px;
-    left: 30px;
+    left: 50px;
   }
   .nuestrosequipos{
     margin-top: 50px;
@@ -110,6 +110,9 @@ html{
   .paddingclients{
     padding-top: 50px;
     padding-bottom: 45px;
+  }
+  .flechasSlider{
+    width:17px;
   }
 }
 
@@ -135,6 +138,9 @@ html{
     padding-top: 50px;
     padding-bottom: 45px;
   }
+  .flechasSlider{
+    width:17px;
+  }
 }
 
 /*MEDIUM DEVICES*/
@@ -144,7 +150,7 @@ html{
   }
   .carousel-caption {
     position: absolute;
-    top: 150px;
+    top: 130px;
     left: 90px;
   }
   .capturatitulosleft {
@@ -168,6 +174,9 @@ html{
   .paddingclients{
     padding-top: 55px;
     padding-bottom: 55px;
+  }
+  .flechasSlider{
+    width:25px;
   }
 }
 /*LARGE DEVICES*/
@@ -211,6 +220,9 @@ html{
     padding-top: 70px;
     padding-bottom: 70px;
   }
+  .flechasSlider{
+    width:30px;
+  }
 }
 
 /*XTRA LARGE DEVICES*/
@@ -250,5 +262,8 @@ html{
   .paddingclients{
     padding-top: 70px;
     padding-bottom: 70px;
+  }
+  .flechasSlider{
+    width:30px;
   }
 }

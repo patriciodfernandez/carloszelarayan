@@ -38,17 +38,13 @@ import RCompu2 from "../assets/small/RCompu_2.jpg"
 import RCompu3 from "../assets/small/RCompu_3.jpg"
 import RCompu4 from "../assets/small/RCompu_4.jpg"
 import RCompu5 from "../assets/small/RCompu_5.jpg"
-
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {  } from "@fortawesome/free-solid-svg-icons";
+import nextn from "../assets/images/nextn.png"
+import prevn from "../assets/images/prevn.png"
 
 
 const Equipos = () => {
-  function ControlledCarousel() {
-    const [index, setIndex] = useState(0);
-
-    const handleSelect = (selectedIndex, e) => {
-      setIndex(selectedIndex);
-    };
-  }
   return (
     <div className="mb-5 pb-5">
       <div className="sliderpadre">
@@ -68,7 +64,7 @@ const Equipos = () => {
           </div>
         </div>
       </div>
-      {/* FIN PORTADA */}
+       FIN PORTADA 
       <div className="d-flex titulos nuestrosequipos">
         <img
           src={captura}
@@ -83,7 +79,7 @@ const Equipos = () => {
           NUESTROS <b>EQUIPOS</b>
         </h3>
       </div>
-      {/* ----- */}
+       ----- 
       <h2 className="text-center mx-5 mb-5 noxs nosm">
         RADIOGRAFÍA <b className="rojo">DIRECTA</b>
       </h2>
@@ -117,14 +113,15 @@ const Equipos = () => {
           <img className="d-block w-100" src={rdirecta7} alt="Third slide" />
         </Carousel.Item>
       </Carousel>
-      {/* RADIO DIRECTA SMALL */}
+       RADIO DIRECTA SMALL 
       <div className="nomd nolg noxl">
         <div className="container d-flex equiposchicos p-3">
           <h4 className="azul">
             <b>DX-D 100 +</b>
           </h4>
         </div>
-        <Carousel indicators={false} activeIndex={index} onSelect={handleSelect}>
+        <Carousel indicators={false} interval={null} nextIcon={<span className="positionnext"><img src={nextn} width="25"></img></span>}
+        prevIcon={<span className="positionprev"><img src={prevn} width="25"></img></span>}>
           <Carousel.Item>
             <img className="d-block w-100" src={RDire01} alt="DX-D 100 +" />
           </Carousel.Item>
@@ -137,81 +134,87 @@ const Equipos = () => {
             <b>DX-D 300</b>
           </h4>
         </div>
-        <Carousel indicators={false} activeIndex={index} onSelect={handleSelect}>
+        <Carousel indicators={false} interval={null} nextIcon={<span className="positionnext"><img src={nextn} width="25"></img></span>}
+        prevIcon={<span className="positionprev"><img src={prevn} width="25"></img></span>}>
           <Carousel.Item>
             <img className="d-block w-100" src={RDire02} alt="DX-D 300" />
           </Carousel.Item>
-          {/* <Carousel.Item>
+          <Carousel.Item>
             <img className="d-block w-100" src={RDire2} alt="DX-D 300 INFO" />
-          </Carousel.Item> */}
+          </Carousel.Item>
         </Carousel>
         <div className="container d-flex equiposchicos p-3">
           <h4 className="azul">
             <b>DR 400</b>
           </h4>
         </div>
-        <Carousel indicators={false} activeIndex={index} onSelect={handleSelect}>
+        <Carousel indicators={false} interval={null} nextIcon={<span className="positionnext"><img src={nextn} width="25"></img></span>}
+        prevIcon={<span className="positionprev"><img src={prevn} width="25"></img></span>}>
           <Carousel.Item>
             <img className="d-block w-100" src={RDire03} alt="DR 400" />
           </Carousel.Item>
-          {/* <Carousel.Item>
+          <Carousel.Item>
             <img className="d-block w-100" src={RDire3} alt="DR 400 INFO" />
-          </Carousel.Item> */}
+          </Carousel.Item>
         </Carousel>
         <div className="container d-flex equiposchicos p-3">
           <h4 className="azul">
             <b>DX-D 400</b>
           </h4>
         </div>
-        <Carousel indicators={false} activeIndex={index} onSelect={handleSelect}>
+        <Carousel indicators={false} interval={null} nextIcon={<span className="positionnext"><img src={nextn} width="25"></img></span>}
+        prevIcon={<span className="positionprev"><img src={prevn} width="25"></img></span>}>
           <Carousel.Item>
             <img className="d-block w-100" src={RDire04} alt="DX-D 400" />
           </Carousel.Item>
-          {/* <Carousel.Item>
+          <Carousel.Item>
             <img className="d-block w-100" src={RDire4} alt="DX-D 400 INFO" />
-          </Carousel.Item> */}
+          </Carousel.Item>
         </Carousel>
         <div className="container d-flex equiposchicos p-3">
           <h4 className="azul">
             <b>DR 600</b>
           </h4>
         </div>
-        <Carousel indicators={false} activeIndex={index} onSelect={handleSelect}>
+        <Carousel indicators={false} interval={null} nextIcon={<span className="positionnext"><img src={nextn} width="25"></img></span>}
+        prevIcon={<span className="positionprev"><img src={prevn} width="25"></img></span>}>
           <Carousel.Item>
             <img className="d-block w-100" src={RDire05} alt="DR 600" />
           </Carousel.Item>
-          {/* <Carousel.Item>
+          <Carousel.Item>
             <img className="d-block w-100" src={RDire5} alt="DR 600 INFO" />
-          </Carousel.Item> */}
+          </Carousel.Item>
         </Carousel>
         <div className="container d-flex equiposchicos p-3">
           <h4 className="azul">
             <b>DX-D 600</b>
           </h4>
         </div>
-        <Carousel indicators={false} activeIndex={index} onSelect={handleSelect}>
+        <Carousel indicators={false} interval={null} nextIcon={<span className="positionnext"><img src={nextn} width="25"></img></span>}
+        prevIcon={<span className="positionprev"><img src={prevn} width="25"></img></span>}>
           <Carousel.Item>
             <img className="d-block w-100" src={RDire06} alt="DX-D 600" />
           </Carousel.Item>
-          {/* <Carousel.Item>
+          <Carousel.Item>
             <img className="d-block w-100" src={RDire6} alt="DX-D 600 INFO" />
-          </Carousel.Item> */}
+          </Carousel.Item>
         </Carousel>
         <div className="container d-flex equiposchicos p-3">
           <h4 className="azul">
             <b>DX-D 800</b>
           </h4>
         </div>
-        <Carousel indicators={false} activeIndex={index} onSelect={handleSelect}>
+        <Carousel indicators={false} interval={null} nextIcon={<span className="positionnext"><img src={nextn} width="25"></img></span>}
+        prevIcon={<span className="positionprev"><img src={prevn} width="25"></img></span>}>
           <Carousel.Item>
             <img className="d-block w-100" src={RDire07} alt="DX-D 800" />
           </Carousel.Item>
-          {/* <Carousel.Item>
+          <Carousel.Item>
             <img className="d-block w-100" src={RDire7} alt="DX-D 800 INFO" />
-          </Carousel.Item> */}
+          </Carousel.Item>
         </Carousel>
       </div>
-      {/* FIN RADIODIRECTA SMALL*/}
+       FIN RADIODIRECTA SMALL
       <h2 className="text-center my-5 pt-5 noxs nosm">
         RADIOGRAFÍA <b className="rojo">COMPUTARIZADA</b>
       </h2>
@@ -235,78 +238,82 @@ const Equipos = () => {
           <img className="d-block w-100" src={rcompu5} alt="Third slide" />
         </Carousel.Item>
       </Carousel>
-      {/* RADIO COMPU SMALL */}
+       RADIO COMPU SMALL 
       <div className="nomd nolg noxl">
         <div className="container d-flex equiposchicos p-3">
           <h4 className="rojo">
             <b>DX-M</b>
           </h4>
         </div>
-        <Carousel indicators={false} activeIndex={index} onSelect={handleSelect}>
+        <Carousel indicators={false} interval={null} nextIcon={<span className="positionnext"><img src={nextn} width="25"></img></span>}
+        prevIcon={<span className="positionprev"><img src={prevn} width="25"></img></span>}>
           <Carousel.Item>
             <img className="d-block w-100" src={RCompu01} alt="DX-M" />
           </Carousel.Item>
-          {/* <Carousel.Item>
+          <Carousel.Item>
             <img className="d-block w-100" src={RCompu1} alt="DX-M INFO" />
-          </Carousel.Item> */}
+          </Carousel.Item>
         </Carousel>
         <div className="container d-flex equiposchicos p-3">
           <h4 className="rojo">
             <b>CR 30-Xm</b>
           </h4>
         </div>
-        <Carousel indicators={false} activeIndex={index} onSelect={handleSelect}>
+        <Carousel indicators={false} interval={null} nextIcon={<span className="positionnext"><img src={nextn} width="25"></img></span>}
+        prevIcon={<span className="positionprev"><img src={prevn} width="25"></img></span>}>
           <Carousel.Item>
             <img className="d-block w-100" src={RCompu02} alt="CR 30-Xm" />
           </Carousel.Item>
-          {/* <Carousel.Item>
+          <Carousel.Item>
             <img className="d-block w-100" src={RCompu2} alt="CR 30-Xm info" />
-          </Carousel.Item> */}
+          </Carousel.Item>
         </Carousel>
         <div className="container d-flex equiposchicos p-3">
           <h4 className="rojo">
             <b>CR 15-X</b>
           </h4>
         </div>
-        <Carousel indicators={false} activeIndex={index} onSelect={handleSelect}>
+        <Carousel indicators={false} interval={null} nextIcon={<span className="positionnext"><img src={nextn} width="25"></img></span>}
+        prevIcon={<span className="positionprev"><img src={prevn} width="25"></img></span>}>
           <Carousel.Item>
             <img className="d-block w-100" src={RCompu03} alt="CR 15-m" />
           </Carousel.Item>
-          {/* <Carousel.Item>
+           <Carousel.Item>
             <img className="d-block w-100" src={RCompu3} alt="CR 15-m info" />
-          </Carousel.Item> */}
+          </Carousel.Item> 
         </Carousel>
         <div className="container d-flex equiposchicos p-3">
           <h4 className="rojo">
             <b>CR 12-X</b>
           </h4>
         </div>
-        <Carousel indicators={false} activeIndex={index} onSelect={handleSelect}>
+        <Carousel indicators={false} interval={null} nextIcon={<span className="positionnext"><img src={nextn} width="25"></img></span>}
+        prevIcon={<span className="positionprev"><img src={prevn} width="25"></img></span>}>
           <Carousel.Item>
             <img className="d-block w-100" src={RCompu04} alt="CR 12-X" />
           </Carousel.Item>
-          {/* <Carousel.Item>
+           <Carousel.Item>
             <img className="d-block w-100" src={RCompu4} alt="CR 12-X info" />
-          </Carousel.Item> */}
+          </Carousel.Item> 
         </Carousel>
         <div className="container d-flex equiposchicos p-3">
           <h4 className="rojo">
             <b>CR 10-X</b>
           </h4>
         </div>
-        <Carousel indicators={false} activeIndex={index} onSelect={handleSelect}>
+        <Carousel indicators={false} interval={null} nextIcon={<span className="positionnext"><img src={nextn} width="25"></img></span>}
+        prevIcon={<span className="positionprev"><img src={prevn} width="25"></img></span>}>
           <Carousel.Item>
             <img className="d-block w-100" src={RCompu05} alt="CR 10-X" />
           </Carousel.Item>
-          {/* <Carousel.Item>
+           <Carousel.Item>
             <img className="d-block w-100" src={RCompu5} alt="CR 10-X info" />
-          </Carousel.Item> */}
+          </Carousel.Item> 
         </Carousel>
       </div>
-      {/* FIN RADIO COMPU SMALL */}
+       FIN RADIO COMPU SMALL 
     </div>
   );
-  render(<ControlledCarousel />);
 };
 
 export default Equipos;

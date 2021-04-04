@@ -36,3 +36,14 @@
   text-decoration-color: #5885c7;
   text-decoration-thickness: 2px;
 }
+
+.positionprev{
+  position:absolute;
+  align-self:center;
+  left:0px;
+}
+.positionnext{
+  position:absolute;
+  align-self:center;
+  right:0px;
+}

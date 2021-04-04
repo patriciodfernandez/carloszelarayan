@@ -5,11 +5,14 @@ import slider2 from "../../assets/images/slider_2.jpg";
 import slider3 from "../../assets/images/slider_3.jpg";
 import slider4 from "../../assets/images/slider_4.jpg";
 import Nav from "react-bootstrap/Nav";
+import next from "../../assets/images/right-arrow.png"
+import prev from "../../assets/images/left-arrow.png"
 
 const Slider = () => {
   return (
     <div className="mb-5" id="inicio">
-      <Carousel indicators={false}>
+      <Carousel indicators={false} nextIcon={<span><img src={next} className="flechasSlider"></img></span>}
+      prevIcon={<span><img src={prev} className="flechasSlider"></img></span>}>
         <Carousel.Item>
           <img className="d-block w-100" src={slider1} alt="First slide" />
           <Carousel.Caption className="carousel-caption">
@@ -18,7 +21,6 @@ const Slider = () => {
                 <b>PROVEEDOR</b>
               </h2>
               <h2 className="text-left subrayado">DE SOLUCIONES</h2>
-              {/* <hr className="azul"></hr> */}
             </Nav.Link>
             <Nav.Link
               exact={true}

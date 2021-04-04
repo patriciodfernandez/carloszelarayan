@@ -1,9 +1,7 @@
 import React from "react";
 import logo from "../../assets/images/Logo_PNG_Medium1.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faWhatsapp,
-} from "@fortawesome/free-brands-svg-icons";
+import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
 import Nav from "react-bootstrap/Nav";
 import "./Footer.css";
 import flecha from "../../assets/Icono_02.png";
@@ -15,8 +13,8 @@ const Footer = () => {
     document.documentElement.scrollTop = 0;}
   return (
     <div>
-      <Nav.Link exact={true} onClick={topFunction}>
-        <div className="text-right p-4">
+      <Nav.Link exact={true} onClick={topFunction} className="p-0">
+        <div className="text-right p-2">
           <img
             src={flecha}
             height="60px"
