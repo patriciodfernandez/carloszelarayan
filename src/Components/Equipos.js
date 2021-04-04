@@ -64,7 +64,7 @@ const Equipos = () => {
           </div>
         </div>
       </div>
-       FIN PORTADA 
+       {/* FIN PORTADA  */}
       <div className="d-flex titulos nuestrosequipos">
         <img
           src={captura}
@@ -79,7 +79,7 @@ const Equipos = () => {
           NUESTROS <b>EQUIPOS</b>
         </h3>
       </div>
-       ----- 
+       {/* -----  */}
       <h2 className="text-center mx-5 mb-5 noxs nosm">
         RADIOGRAFÍA <b className="rojo">DIRECTA</b>
       </h2>
@@ -113,7 +113,7 @@ const Equipos = () => {
           <img className="d-block w-100" src={rdirecta7} alt="Third slide" />
         </Carousel.Item>
       </Carousel>
-       RADIO DIRECTA SMALL 
+       {/* RADIO DIRECTA SMALL  */}
       <div className="nomd nolg noxl">
         <div className="container d-flex equiposchicos p-3">
           <h4 className="azul">
@@ -214,7 +214,7 @@ const Equipos = () => {
           </Carousel.Item>
         </Carousel>
       </div>
-       FIN RADIODIRECTA SMALL
+       {/* FIN RADIODIRECTA SMALL */}
       <h2 className="text-center my-5 pt-5 noxs nosm">
         RADIOGRAFÍA <b className="rojo">COMPUTARIZADA</b>
       </h2>
@@ -238,7 +238,7 @@ const Equipos = () => {
           <img className="d-block w-100" src={rcompu5} alt="Third slide" />
         </Carousel.Item>
       </Carousel>
-       RADIO COMPU SMALL 
+       {/* RADIO COMPU SMALL  */}
       <div className="nomd nolg noxl">
         <div className="container d-flex equiposchicos p-3">
           <h4 className="rojo">
@@ -311,7 +311,7 @@ const Equipos = () => {
           </Carousel.Item> 
         </Carousel>
       </div>
-       FIN RADIO COMPU SMALL 
+       {/* FIN RADIO COMPU SMALL  */}
     </div>
   );
 };
