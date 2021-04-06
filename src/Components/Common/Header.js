@@ -56,7 +56,7 @@ const Header = () => {
         <Navbar collapseOnSelect expand="lg" className="negroo text-right navbar-dark">
           <div className="container">
             <Nav.Link exact={true} href="/">
-              <img src={logo} alt="logo del NavBar" width="90px"></img>
+              <img src={logo} alt="logo del NavBar" width="100px"></img>
             </Nav.Link>
             <Navbar.Toggle aria-controls="basic-navbar-nav"/>
             <Navbar.Collapse id="basic-navbar-nav" >

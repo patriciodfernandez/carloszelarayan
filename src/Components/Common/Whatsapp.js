@@ -11,8 +11,7 @@ const Whatsapp = () => {
           rel="noopener noreferrer"
         >
           <img
-            height="60px"
-            width="60px"
+            className="sizeWP"
             src={logowp}
             alt="Logo de whatsapp, presione para redireccionar a la aplicacion"
           />

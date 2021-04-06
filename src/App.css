@@ -1,6 +1,9 @@
 body {
   font-family: "Red Hat Display", sans-serif;
 }
+html{
+  scroll-behavior: smooth;
+}
 .bold {
   font-weight: 900;
 }
@@ -51,9 +54,6 @@ body {
   align-items: center;
   justify-content: center;
 }
-html{
-  scroll-behavior: smooth;
-}
 /* FUENTES */
 .gothambold {
   font-family: "Gotham Bold";
@@ -83,6 +83,16 @@ html{
 .titulos {
   position: relative;
   justify-content: center;
+}
+.positionprevlg{
+  position: absolute;
+  align-self:center;
+  left:7px;
+}
+.positionnextlg{
+  position: absolute;
+  align-self:center;
+  right:7px;
 }
 
 /*MEDIA QUERIES*/
@@ -114,6 +124,10 @@ html{
   .flechasSlider{
     width:17px;
   }
+  .sizeWP{
+    height:45px;
+    width:45px;
+  }
 }
 
 /*SMALL DEVICES*/
@@ -140,6 +154,10 @@ html{
   }
   .flechasSlider{
     width:17px;
+  }
+  .sizeWP{
+    width:45px;
+    height:45px;
   }
 }
 
@@ -177,6 +195,10 @@ html{
   }
   .flechasSlider{
     width:25px;
+  }
+  .sizeWP{
+    width:60px;
+    height:60px;
   }
 }
 /*LARGE DEVICES*/
@@ -223,6 +245,10 @@ html{
   .flechasSlider{
     width:30px;
   }
+  .sizeWP{
+    width:60px;
+    height:60px;
+  }
 }
 
 /*XTRA LARGE DEVICES*/
@@ -265,5 +291,9 @@ html{
   }
   .flechasSlider{
     width:30px;
+  }
+  .sizeWP{
+    width:60px;
+    height:60px;
   }
 }

@@ -86,11 +86,8 @@ const Equipos = () => {
       <h4 className="text-center my-3 nomd nolg noxl">
         RADIOGRAFÍA <b className="azul">DIRECTA</b>
       </h4>
-      <Carousel indicators={false}
-        className="noxs nosm"
-        activeIndex={index}
-        onSelect={handleSelect}
-      >
+      <Carousel indicators={false} className="noxs nosm" nextIcon={<span className="positionnextlg"><img src={nextn} width="25"></img></span>}
+        prevIcon={<span className="positionprevlg"><img src={prevn} width="25"></img></span>}>
         <Carousel.Item>
           <img className="d-block w-100" src={rdirecta1} alt="First slide" />
         </Carousel.Item>
@@ -221,7 +218,8 @@ const Equipos = () => {
       <h4 className="text-center my-5 nomd nolg noxl">
         RADIOGRAFÍA <b className="rojo">COMPUTARIZADA</b>
       </h4>
-      <Carousel indicators={false} className="noxs nosm">
+      <Carousel indicators={false} className="noxs nosm" nextIcon={<span className="positionnextlg"><img src={nextn} width="25"></img></span>}
+        prevIcon={<span className="positionprevlg"><img src={prevn} width="25"></img></span>}>
         <Carousel.Item>
           <img className="d-block w-100" src={rcompu1} alt="First slide" />
         </Carousel.Item>

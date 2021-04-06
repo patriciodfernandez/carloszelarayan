@@ -17,8 +17,7 @@ const Footer = () => {
         <div className="text-right p-2">
           <img
             src={flecha}
-            height="60px"
-            width="60px"
+            className="sizeWP"
             alt="flecha, toca para volver arriba"
           ></img>
         </div>
