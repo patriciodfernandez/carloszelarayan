@@ -58,6 +58,15 @@ html{
 .gothambold {
   font-family: "Gotham Bold";
 }
+.gothambook{
+  font-family: "Gotham Book";
+}
+.gothamlight{
+  font-family: "Gotham Light";
+}
+.gothammedium{
+  font-family: "Gotham Medium";
+}
 @font-face {
   font-family: "Gotham Bold";
 

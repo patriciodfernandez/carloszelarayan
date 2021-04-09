@@ -90,16 +90,16 @@ const Contacto = () => {
         <img src={Slider4} className="w-100"></img>
         <div className="carousel-caption text-light">
           <div className="nomd nolg noxl">
-            <h4 className="text-left">
-              <b>ESTAMOS</b>
+            <h4 className="text-left gothammedium">
+              ESTAMOS
             </h4>
-            <h4 className="text-left subrayado">PARA AYUDARTE</h4>
+            <h4 className="text-left subrayado gothamlight">PARA AYUDARTE</h4>
           </div>
           <div className="noxs nosm">
-            <h2 className="text-left">
-              <b>ESTAMOS</b>
+            <h2 className="text-left gothammedium">
+              ESTAMOS
             </h2>
-            <h2 className="text-left subrayado">PARA AYUDARTE</h2>
+            <h2 className="text-left subrayado gothamlight">PARA AYUDARTE</h2>
           </div>
         </div>
       </div>
@@ -242,8 +242,8 @@ const Contacto = () => {
       </div>
       {/* DONDE ESTAMOS */}
       <div className="my-4 py-5 d-flex titulos">
-          <h2>
-          ¿DONDE <b>ESTAMOS?</b>
+          <h2 className="gothambook">
+          ¿DONDE <b className="gothambold">ESTAMOS?</b>
           </h2>
           <img
             src={captura}

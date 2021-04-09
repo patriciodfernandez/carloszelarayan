@@ -17,20 +17,20 @@ const Slider = () => {
           <img className="d-block w-100" src={slider1} alt="First slide" />
           <Carousel.Caption className="carousel-caption">
             <Nav.Link exact={true} href="/" className="nav-link text-light noxs nosm">
-              <h2 className="text-left">
-                <b>PROVEEDOR</b>
+              <h2 className="text-left gothammedium">
+                PROVEEDOR
               </h2>
-              <h2 className="text-left subrayado">DE SOLUCIONES</h2>
+              <h2 className="text-left subrayado gothamlight">DE SOLUCIONES</h2>
             </Nav.Link>
             <Nav.Link
               exact={true}
               href="/equipos"
               className="nav-link text-light nomd nolg noxl p-0 m-0"
             >
-              <h4 className="text-left">
-                <b>PROVEEDOR</b>
+              <h4 className="text-left gothammedium">
+                PROVEEDOR
               </h4>
-              <h4 className="text-left subrayado">DE SOLUCIONES</h4>
+              <h4 className="text-left subrayado gothamlight">DE SOLUCIONES</h4>
             </Nav.Link>
           </Carousel.Caption>
         </Carousel.Item>
@@ -42,20 +42,20 @@ const Slider = () => {
               href="/equipos"
               className="nav-link text-light nosm noxs"
             >
-              <h2 className="text-left">
-                <b>CONOCÉ</b>
+              <h2 className="text-left gothammedium">
+                CONOCÉ
               </h2>
-              <h2 className="text-left subrayado">NUESTROS EQUIPOS</h2>
+              <h2 className="text-left subrayado gothamlight">NUESTROS EQUIPOS</h2>
             </Nav.Link>
             <Nav.Link
               exact={true}
               href="/equipos"
               className="nav-link text-light nomd nolg noxl p-0 m-0"
             >
-              <h4 className="text-left">
-                <b>CONOCÉ</b>
+              <h4 className="text-left gothammedium">
+                CONOCÉ
               </h4>
-              <h4 className="text-left subrayado">NUESTROS EQUIPOS</h4>
+              <h4 className="text-left subrayado gothamlight">NUESTROS EQUIPOS</h4>
             </Nav.Link>
           </Carousel.Caption>
         </Carousel.Item>
@@ -67,20 +67,20 @@ const Slider = () => {
               href="/servicios"
               className="nav-link text-light noxs noxm"
             >
-              <h2 className="text-left">
-                <b>CONOCÉ</b>
+              <h2 className="text-left gothammedium">
+                CONOCÉ
               </h2>
-              <h2 className="text-left subrayado">NUESTROS SERVICIOS</h2>
+              <h2 className="text-left subrayado gothamlight">NUESTROS SERVICIOS</h2>
             </Nav.Link>
             <Nav.Link
               exact={true}
               href="/equipos"
               className="nav-link text-light nomd nolg noxl p-0 m-0"
             >
-              <h4 className="text-left">
-                <b>CONOCÉ</b>
+              <h4 className="text-left gothammedium">
+                CONOCÉ
               </h4>
-              <h4 className="text-left subrayado">NUESTROS SERVICIOS</h4>
+              <h4 className="text-left subrayado gothamlight">NUESTROS SERVICIOS</h4>
             </Nav.Link>
           </Carousel.Caption>
         </Carousel.Item>
@@ -92,20 +92,20 @@ const Slider = () => {
               href="/contacto"
               className="nav-link text-light noxs nosm"
             >
-              <h2 className="text-left">
-                <b>ESTAMOS</b>
+              <h2 className="text-left gothammedium">
+                ESTAMOS
               </h2>
-              <h2 className="text-left subrayado">PARA AYUDARTE</h2>
+              <h2 className="text-left subrayado gothamlight">PARA AYUDARTE</h2>
             </Nav.Link>
             <Nav.Link
               exact={true}
               href="/equipos"
               className="nav-link text-light nomd nolg noxl p-0 m-0"
             >
-              <h4 className="text-left">
-                <b>ESTAMOS</b>
+              <h4 className="text-left gothammedium">
+                ESTAMOS
               </h4>
-              <h4 className="text-left subrayado">PARA AYUDARTE</h4>
+              <h4 className="text-left subrayado gothamlight">PARA AYUDARTE</h4>
             </Nav.Link>
           </Carousel.Caption>
         </Carousel.Item>

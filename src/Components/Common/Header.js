@@ -7,7 +7,7 @@ import "./Header.css";
 
 const Header = () => {
   return (
-    <div id="top">
+    <div id="top" className="gothambook">
       {/* HEADER LG Y XL */}
       <div className="positionheader w-100 noxs noxm nomd">
         <Navbar collapseOnSelect expand="lg">
