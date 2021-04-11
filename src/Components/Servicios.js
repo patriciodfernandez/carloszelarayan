@@ -7,15 +7,15 @@ import captura from "../assets/Captura.JPG";
 
 const Servicios = () => {
   return (
-    <div className="mb-5 pb-5 text-center">
+    <div className="pb-5 text-center">
       <div className="sliderpadre">
         <img src={Slider3} className="w-100"></img>
         <div className="carousel-caption text-light">
           <div className="nomd nolg noxl">
-            <h4 className="text-left gothammedium">
+            <h5 className="text-left gothammedium">
               CONOCÉ
-            </h4>
-            <h4 className="text-left subrayado gothamlight">NUESTROS SERVICIOS</h4>
+            </h5>
+            <h5 className="text-left subrayado gothamlight">NUESTROS SERVICIOS</h5>
           </div>
           <div className="noxs nosm">
             <h2 className="text-left gothammedium">

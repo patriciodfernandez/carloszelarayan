@@ -27,10 +27,10 @@ const Slider = () => {
               href="/equipos"
               className="nav-link text-light nomd nolg noxl p-0 m-0"
             >
-              <h4 className="text-left gothammedium">
+              <h5 className="text-left gothammedium">
                 PROVEEDOR
-              </h4>
-              <h4 className="text-left subrayado gothamlight">DE SOLUCIONES</h4>
+              </h5>
+              <h5 className="text-left subrayado gothamlight">DE SOLUCIONES</h5>
             </Nav.Link>
           </Carousel.Caption>
         </Carousel.Item>
@@ -52,10 +52,10 @@ const Slider = () => {
               href="/equipos"
               className="nav-link text-light nomd nolg noxl p-0 m-0"
             >
-              <h4 className="text-left gothammedium">
+              <h5 className="text-left gothammedium">
                 CONOCÉ
-              </h4>
-              <h4 className="text-left subrayado gothamlight">NUESTROS EQUIPOS</h4>
+              </h5>
+              <h5 className="text-left subrayado gothamlight">NUESTROS EQUIPOS</h5>
             </Nav.Link>
           </Carousel.Caption>
         </Carousel.Item>
@@ -77,10 +77,10 @@ const Slider = () => {
               href="/equipos"
               className="nav-link text-light nomd nolg noxl p-0 m-0"
             >
-              <h4 className="text-left gothammedium">
+              <h5 className="text-left gothammedium">
                 CONOCÉ
-              </h4>
-              <h4 className="text-left subrayado gothamlight">NUESTROS SERVICIOS</h4>
+              </h5>
+              <h5 className="text-left subrayado gothamlight">NUESTROS SERVICIOS</h5>
             </Nav.Link>
           </Carousel.Caption>
         </Carousel.Item>
@@ -102,10 +102,10 @@ const Slider = () => {
               href="/equipos"
               className="nav-link text-light nomd nolg noxl p-0 m-0"
             >
-              <h4 className="text-left gothammedium">
+              <h5 className="text-left gothammedium">
                 ESTAMOS
-              </h4>
-              <h4 className="text-left subrayado gothamlight">PARA AYUDARTE</h4>
+              </h5>
+              <h5 className="text-left subrayado gothamlight">PARA AYUDARTE</h5>
             </Nav.Link>
           </Carousel.Caption>
         </Carousel.Item>

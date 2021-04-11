@@ -90,10 +90,10 @@ const Contacto = () => {
         <img src={Slider4} className="w-100"></img>
         <div className="carousel-caption text-light">
           <div className="nomd nolg noxl">
-            <h4 className="text-left gothammedium">
+            <h5 className="text-left gothammedium">
               ESTAMOS
-            </h4>
-            <h4 className="text-left subrayado gothamlight">PARA AYUDARTE</h4>
+            </h5>
+            <h5 className="text-left subrayado gothamlight">PARA AYUDARTE</h5>
           </div>
           <div className="noxs nosm">
             <h2 className="text-left gothammedium">

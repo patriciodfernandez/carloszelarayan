@@ -51,10 +51,10 @@ const Equipos = () => {
         <img src={Slider2} className="w-100"></img>
         <div className="carousel-caption text-light">
           <div className="nomd nolg noxl">
-            <h4 className="text-left gothammedium">
+            <h5 className="text-left gothammedium">
               CONOCÉ
-            </h4>
-            <h4 className="text-left subrayado d-flex gothamlight">NUESTROS EQUIPOS</h4>
+            </h5>
+            <h5 className="text-left subrayado d-flex gothamlight">NUESTROS EQUIPOS</h5>
           </div>
           <div className="noxs nosm">
             <h2 className="text-left gothammedium">
