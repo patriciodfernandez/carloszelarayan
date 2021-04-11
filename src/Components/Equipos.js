@@ -51,16 +51,16 @@ const Equipos = () => {
         <img src={Slider2} className="w-100"></img>
         <div className="carousel-caption text-light">
           <div className="nomd nolg noxl">
-            <h4 className="text-left">
-              <b>CONOCÉ</b>
+            <h4 className="text-left gothammedium">
+              CONOCÉ
             </h4>
-            <h4 className="text-left subrayado d-flex">NUESTROS EQUIPOS</h4>
+            <h4 className="text-left subrayado d-flex gothamlight">NUESTROS EQUIPOS</h4>
           </div>
           <div className="noxs nosm">
-            <h2 className="text-left">
-              <b>CONOCÉ</b>
+            <h2 className="text-left gothammedium">
+              CONOCÉ
             </h2>
-            <h2 className="text-left subrayado">NUESTROS EQUIPOS</h2>
+            <h2 className="text-left subrayado gothamlight">NUESTROS EQUIPOS</h2>
           </div>
         </div>
       </div>
@@ -72,18 +72,18 @@ const Equipos = () => {
           className="nosm noxs my-0 capturatitulosleft"
           height="50px"
         ></img>
-        <h1 className="text-center algunosclients nosm noxs">
-          NUESTROS <b>EQUIPOS</b>
+        <h1 className="text-center algunosclients nosm noxs gothambook">
+          NUESTROS <b className="gothambold">EQUIPOS</b>
         </h1>
-        <h3 className="text-center nomd nolg noxl">
-          NUESTROS <b>EQUIPOS</b>
+        <h3 className="text-center nomd nolg noxl gothambook">
+          NUESTROS <b className="gothambold">EQUIPOS</b>
         </h3>
       </div>
        {/* -----  */}
-      <h2 className="text-center mx-5 mb-5 noxs nosm">
+      <h2 className="text-center mx-5 mb-5 noxs nosm gothambook">
         RADIOGRAFÍA <b className="rojo">DIRECTA</b>
       </h2>
-      <h4 className="text-center my-3 nomd nolg noxl">
+      <h4 className="text-center my-3 nomd nolg noxl gothambook">
         RADIOGRAFÍA <b className="azul">DIRECTA</b>
       </h4>
       <Carousel indicators={false} className="noxs nosm" nextIcon={<span className="positionnextlg"><img src={nextn} width="25"></img></span>}
@@ -113,7 +113,7 @@ const Equipos = () => {
        {/* RADIO DIRECTA SMALL  */}
       <div className="nomd nolg noxl">
         <div className="container d-flex equiposchicos p-3">
-          <h4 className="azul">
+          <h4 className="azul gothambook">
             <b>DX-D 100 +</b>
           </h4>
         </div>
@@ -127,7 +127,7 @@ const Equipos = () => {
           </Carousel.Item>
         </Carousel>
         <div className="container d-flex equiposchicos p-3">
-          <h4 className="azul">
+          <h4 className="azul gothambook">
             <b>DX-D 300</b>
           </h4>
         </div>
@@ -141,7 +141,7 @@ const Equipos = () => {
           </Carousel.Item>
         </Carousel>
         <div className="container d-flex equiposchicos p-3">
-          <h4 className="azul">
+          <h4 className="azul gothambook">
             <b>DR 400</b>
           </h4>
         </div>
@@ -155,7 +155,7 @@ const Equipos = () => {
           </Carousel.Item>
         </Carousel>
         <div className="container d-flex equiposchicos p-3">
-          <h4 className="azul">
+          <h4 className="azul gothambook">
             <b>DX-D 400</b>
           </h4>
         </div>
@@ -169,7 +169,7 @@ const Equipos = () => {
           </Carousel.Item>
         </Carousel>
         <div className="container d-flex equiposchicos p-3">
-          <h4 className="azul">
+          <h4 className="azul gothambook">
             <b>DR 600</b>
           </h4>
         </div>
@@ -183,7 +183,7 @@ const Equipos = () => {
           </Carousel.Item>
         </Carousel>
         <div className="container d-flex equiposchicos p-3">
-          <h4 className="azul">
+          <h4 className="azul gothambook">
             <b>DX-D 600</b>
           </h4>
         </div>
@@ -197,7 +197,7 @@ const Equipos = () => {
           </Carousel.Item>
         </Carousel>
         <div className="container d-flex equiposchicos p-3">
-          <h4 className="azul">
+          <h4 className="azul gothambook">
             <b>DX-D 800</b>
           </h4>
         </div>
@@ -212,10 +212,10 @@ const Equipos = () => {
         </Carousel>
       </div>
        {/* FIN RADIODIRECTA SMALL */}
-      <h2 className="text-center my-5 pt-5 noxs nosm">
+      <h2 className="text-center my-5 pt-5 noxs nosm gothambook">
         RADIOGRAFÍA <b className="rojo">COMPUTARIZADA</b>
       </h2>
-      <h4 className="text-center my-5 nomd nolg noxl">
+      <h4 className="text-center my-5 nomd nolg noxl gothambook">
         RADIOGRAFÍA <b className="rojo">COMPUTARIZADA</b>
       </h4>
       <Carousel indicators={false} className="noxs nosm" nextIcon={<span className="positionnextlg"><img src={nextn} width="25"></img></span>}
@@ -239,7 +239,7 @@ const Equipos = () => {
        {/* RADIO COMPU SMALL  */}
       <div className="nomd nolg noxl">
         <div className="container d-flex equiposchicos p-3">
-          <h4 className="rojo">
+          <h4 className="rojo gothambook">
             <b>DX-M</b>
           </h4>
         </div>
@@ -253,7 +253,7 @@ const Equipos = () => {
           </Carousel.Item>
         </Carousel>
         <div className="container d-flex equiposchicos p-3">
-          <h4 className="rojo">
+          <h4 className="rojo gothambook">
             <b>CR 30-Xm</b>
           </h4>
         </div>
@@ -267,7 +267,7 @@ const Equipos = () => {
           </Carousel.Item>
         </Carousel>
         <div className="container d-flex equiposchicos p-3">
-          <h4 className="rojo">
+          <h4 className="rojo gothambook">
             <b>CR 15-X</b>
           </h4>
         </div>
@@ -281,7 +281,7 @@ const Equipos = () => {
           </Carousel.Item> 
         </Carousel>
         <div className="container d-flex equiposchicos p-3">
-          <h4 className="rojo">
+          <h4 className="rojo gothambook">
             <b>CR 12-X</b>
           </h4>
         </div>
@@ -295,7 +295,7 @@ const Equipos = () => {
           </Carousel.Item> 
         </Carousel>
         <div className="container d-flex equiposchicos p-3">
-          <h4 className="rojo">
+          <h4 className="rojo gothambook">
             <b>CR 10-X</b>
           </h4>
         </div>

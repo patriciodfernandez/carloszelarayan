@@ -21,11 +21,11 @@ const QuienesSomos = () => {
           className="nosm noxs my-0 capturatitulosleft"
           height="50px"
         ></img>
-        <h2 className="text-center nosm noxs">
-          QUIENES <b>SOMOS</b>
+        <h2 className="text-center nosm noxs gothambook">
+          QUIENES <b className="gothambold">SOMOS</b>
         </h2>
-        <h3 className="text-center nomd nolg noxl">
-          QUIENES <b>SOMOS</b>
+        <h3 className="text-center nomd nolg noxl gothambook">
+          QUIENES <b className="gothambold">SOMOS</b>
         </h3>
       </div>
       <section className="row no-gutters gris">
@@ -34,18 +34,18 @@ const QuienesSomos = () => {
           <img src={afgamd} className="w-100 noxs nosm nolg noxl"></img>
         </div>
         <div className="col-md-6 col-sm-12">
-          <h5 className="p-5 mt-3">
+          <h5 className="p-5 mt-3 gothambook">
             Somos líderes en tecnología de diagnóstico por imágenes, brindando
             servicios y soluciones IT a socios estratégicos de la región.
             Nuestra principal unidad de negocios es la comercialización de
-            productos <b>AGFA Healthcare Imaging</b>.
+            productos <b className="gothambold">AGFA Healthcare Imaging</b>.
           </h5>
         </div>
       </section>
       {/* INFRAESTRUCTURA */}
       <div className="d-flex titulos nuestrosequipos">
-        <h2 className="text-center nosm noxs">
-          INFRAESTRUCTURA <b>IT</b>
+        <h2 className="text-center nosm noxs gothambook">
+          INFRAESTRUCTURA <b className="gothambold">IT</b>
         </h2>
         <img
           src={captura}
@@ -53,17 +53,17 @@ const QuienesSomos = () => {
           className="nosm noxs capturatitulosright"
           height="50px"
         ></img>
-        <h3 className="text-center nomd nolg noxl">
-          INFRAESTRUCTURA <b>IT</b>
+        <h3 className="text-center nomd nolg noxl gothambook">
+          INFRAESTRUCTURA <b className="gothambold">IT</b>
         </h3>
       </div>
       <section className="row no-gutters gris mb-5">
         <div className="col-md-6 col-sm-12">
-          <h5 className="p-5 mt-3">
+          <h5 className="p-5 mt-3 gothambook">
             Contamos con una infraestructura de centros de datos con equipos de
             ultima generación, sistemas de alimentación ininterrumpidas y
             generadores para evitar perdida de servicio.{" "}
-            <b>Monitoreo constante</b>.
+            <b className="gothambold">Monitoreo constante</b>.
           </h5>
         </div>
         <div className="col-md-6 col-sm-12">
@@ -83,11 +83,11 @@ const QuienesSomos = () => {
             className="nosm noxs capturatitulosleft"
             height="50px"
           ></img>
-          <h2 className="text-center nosm noxs algunosclients">
-            ALGUNOS DE NUESTROS <b>CLIENTES</b>
+          <h2 className="text-center nosm noxs algunosclients gothambook">
+            ALGUNOS DE NUESTROS <b className="gothambold">CLIENTES</b>
           </h2>
-          <h3 className="text-center nomd nolg noxl">
-            ALGUNOS DE NUESTROS <b>CLIENTES</b>
+          <h3 className="text-center nomd nolg noxl gothambook">
+            ALGUNOS DE NUESTROS <b className="gothambold">CLIENTES</b>
           </h3>
         </div>
         <div className="row no-gutters mb-5 nosm noxs">
@@ -130,15 +130,15 @@ const QuienesSomos = () => {
             <img src={logo5} className="" alt="logo"></img>
           </div>
         </section>
-        <h2 className="text-center px-5">
-          Trabajamos con más de <b className="azul">350 clientes</b> en todo el
+        <h2 className="text-center px-5 gothambook">
+          Trabajamos con más de <b className="azul gothambold">350 clientes</b> en todo el
           país
         </h2>
       </section>
       {/* DONDE ESTAMOS */}
       <div className="d-flex titulos nuestrosequipos">
-        <h2 className="text-center nosm noxs">
-          ¿DONDE <b>ESTAMOS?</b>
+        <h2 className="text-center nosm noxs gothambook">
+          ¿DONDE <b className="gothambold">ESTAMOS?</b>
         </h2>
         <img
           src={captura}
@@ -146,8 +146,8 @@ const QuienesSomos = () => {
           className="nosm noxs capturatitulosright"
           height="50px"
         ></img>
-        <h3 className="text-center nomd nolg noxl">
-          ¿DONDE <b>ESTAMOS?</b>
+        <h3 className="text-center nomd nolg noxl gothambook">
+          ¿DONDE <b className="gothambold">ESTAMOS?</b>
         </h3>
       </div>
       <div className="text-center m-0 p-0">

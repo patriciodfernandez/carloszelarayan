@@ -12,16 +12,16 @@ const Servicios = () => {
         <img src={Slider3} className="w-100"></img>
         <div className="carousel-caption text-light">
           <div className="nomd nolg noxl">
-            <h4 className="text-left">
-              <b>CONOCÉ</b>
+            <h4 className="text-left gothammedium">
+              CONOCÉ
             </h4>
-            <h4 className="text-left subrayado">NUESTROS SERVICIOS</h4>
+            <h4 className="text-left subrayado gothamlight">NUESTROS SERVICIOS</h4>
           </div>
           <div className="noxs nosm">
-            <h2 className="text-left">
-              <b>CONOCÉ</b>
+            <h2 className="text-left gothammedium">
+              CONOCÉ
             </h2>
-            <h2 className="text-left subrayado">NUESTROS SERVICIOS</h2>
+            <h2 className="text-left subrayado gothamlight">NUESTROS SERVICIOS</h2>
           </div>
         </div>
       </div>
@@ -33,11 +33,11 @@ const Servicios = () => {
           className="nosm noxs my-0 capturatitulosleft"
           height="50px"
         ></img>
-        <h1 className="text-center algunosclients nosm noxs">
-          NUESTROS <b>SERVICIOS</b>
+        <h1 className="text-center algunosclients nosm noxs gothambook">
+          NUESTROS <b className="gothambold">SERVICIOS</b>
         </h1>
-        <h3 className="text-center nomd nolg noxl">
-          NUESTROS <b>SERVICIOS</b>
+        <h3 className="text-center nomd nolg noxl gothambook">
+          NUESTROS <b className="gothambold">SERVICIOS</b>
         </h3>
       </div>
 

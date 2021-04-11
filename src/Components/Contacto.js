@@ -112,7 +112,7 @@ const Contacto = () => {
             height="50px"
           ></img>
           <div className="p-5 mt-4 margencontactoo">
-            <h4 className="mb-3">
+            <h4 className="mb-3 gothambook">
               <FontAwesomeIcon
                 className="mr-2 azul"
                 icon={faPhoneAlt}
@@ -126,7 +126,7 @@ const Contacto = () => {
               rel="noopener noreferrer"
               className="letrasfooter text-dark"
             >
-              <h4 className="mb-3 textButton">
+              <h4 className="mb-3 textButton gothambook">
                 <FontAwesomeIcon
                   className="mr-2 azul"
                   icon={faWhatsapp}
@@ -141,34 +141,34 @@ const Contacto = () => {
               rel="noopener noreferrer"
               className="text-dark"
             >
-              <h4 className="mb-3 textButton">
+              <h4 className="mb-3 textButton gothambook">
                 <FontAwesomeIcon
                   className="mr-2 azul"
                   icon={faMapMarkerAlt}
                   size="1x"
                 />
-                <b>Castelli 69</b>
+                <b className="gothambold">Castelli 69</b>
                 <br></br> San Miguel de Tucumán<br></br> Tucumán | T4000
               </h4>
             </a>
-            <h4 className="mb-3">
+            <h4 className="mb-3 gothambook">
               <FontAwesomeIcon className="mr-2 azul" icon={faAt} size="1x" />
               info@crz.com.ar
             </h4>
           </div>
         </div>
         <div className="col-md-7 p-5">
-          <h2 className="margencontacto">
-            <b>CONTACTO</b>
+          <h2 className="margencontacto gothambold">
+          CONTACTO
           </h2>
           <div className="mt-4 formcontacto">
-            <h4 className="mb-3">
+            <h4 className="mb-3 gothammedium">
               <FontAwesomeIcon
                 icon={faEnvelope}
                 className="mr-1 azul"
                 size="1x"
               ></FontAwesomeIcon>
-              <b>ENVIANOS TU CONSULTA</b>
+              ENVIANOS TU CONSULTA
             </h4>
             {error ? (
               <Alert variant={"warning"}>
@@ -179,7 +179,7 @@ const Contacto = () => {
             <Form noValidate validated={validated} onSubmit={handleSubmit}>
             <input type="hidden" name="contact_number" />
               <Form.Group controlId="fullName">
-                <Form.Label className="lead">Apellido y Nombre</Form.Label>
+                <Form.Label className="lead gothambook">Apellido y Nombre</Form.Label>
                 <Form.Control
                   required
                   onChange={(e) => setNombreConsultor(e.target.value)}
@@ -190,7 +190,7 @@ const Contacto = () => {
                 />
               </Form.Group>
               <Form.Group controlId="teléfono">
-                <Form.Label className="lead">Teléfono</Form.Label>
+                <Form.Label className="lead gothambook">Teléfono</Form.Label>
                 <Form.Control
                   required
                   onChange={(e) => setTelefonoConsultor(e.target.value)}
@@ -200,7 +200,7 @@ const Contacto = () => {
                 />
               </Form.Group>
               <Form.Group id="email">
-                <Form.Label className="lead">Email</Form.Label>
+                <Form.Label className="lead gothambook">Email</Form.Label>
                 <Form.Control
                   required
                   onChange={(e) => setEmailConsultor(e.target.value)}
@@ -212,7 +212,7 @@ const Contacto = () => {
               </Form.Group>
 
               <Form.Group controlId="exampleForm.ControlTextarea1">
-                <Form.Label className="lead">
+                <Form.Label className="lead gothambook">
                   Escribe tu consulta aquí
                 </Form.Label>
                 <Form.Control
@@ -224,16 +224,16 @@ const Contacto = () => {
                   onChange={(e) => setConsultaConsultor(e.target.value)}
                 />
               </Form.Group>
-              <Form.Text className="text-muted">
+              <Form.Text className="text-muted gothambook">
                 *No compartiremos estos datos con nadie
               </Form.Text>
               <div className="text-right">
                 <Button
                   type="Submit"
                   id="botonenviar"
-                  className="text-light mt-2 btn-lg"
+                  className="text-light mt-2 btn-lg gothambold"
                 >
-                  <b>ENVIAR</b>
+                  ENVIAR
                 </Button>
               </div>
             </Form>
