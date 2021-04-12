@@ -119,7 +119,7 @@ const Footer = () => {
               </a>
             </div>
             {/*  COL 4 */}
-            <div className="col-sm-12 col-md-3 pl-0 mt-4">
+            <div className="col-sm-12 col-md-3 mt-4">
               <p className="gothambold azul mb-2">DIRECCIÓN</p>
               <a
                 href="https://www.google.com.ar/maps/place/Castelli+69,+San+Miguel+de+Tucum%C3%A1n,+Tucum%C3%A1n/@-26.8226217,-65.2362843,17z/data=!4m5!3m4!1s0x94225c5ee0a47ceb:0x8e015b8db3a3570a!8m2!3d-26.8231244!4d-65.2349217"
