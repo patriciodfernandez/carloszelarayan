@@ -53,7 +53,7 @@ const Header = () => {
       </div>
       {/* HEADER XS SM Y MD */}
       <div className="w-100 nolg noxl">
-        <Navbar collapseOnSelect expand="lg" className="negroo text-right navbar-dark">
+        <Navbar collapseOnSelect expand="lg" className="negroheader text-right navbar-dark">
           <div className="container">
             <Nav.Link exact={true} href="/">
               <img src={logo} alt="logo del NavBar" width="100px"></img>

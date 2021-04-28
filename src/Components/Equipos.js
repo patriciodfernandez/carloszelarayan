@@ -38,8 +38,6 @@ import RCompu2 from "../assets/small/RCompu_2.jpg"
 import RCompu3 from "../assets/small/RCompu_3.jpg"
 import RCompu4 from "../assets/small/RCompu_4.jpg"
 import RCompu5 from "../assets/small/RCompu_5.jpg"
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {  } from "@fortawesome/free-solid-svg-icons";
 import nextn from "../assets/images/nextn.png"
 import prevn from "../assets/images/prevn.png"
 
@@ -72,18 +70,18 @@ const Equipos = () => {
           className="nosm noxs my-0 capturatitulosleft"
           height="50px"
         ></img>
-        <h1 className="text-center algunosclients nosm noxs gothambook">
-          NUESTROS <b className="gothambold">EQUIPOS</b>
+        <h1 className="text-center algunosclients nosm noxs gothambook negro">
+          NUESTROS <b className="gothambold negro">EQUIPOS</b>
         </h1>
-        <h3 className="text-center nomd nolg noxl gothambook">
-          NUESTROS <b className="gothambold">EQUIPOS</b>
+        <h3 className="text-center nomd nolg noxl gothambook negro">
+          NUESTROS <b className="gothambold negro">EQUIPOS</b>
         </h3>
       </div>
        {/* -----  */}
-      <h2 className="text-center mx-5 mb-5 noxs nosm gothambook">
+      <h2 className="text-center mx-5 mb-5 noxs nosm gothambook negro">
         RADIOGRAFÍA <b className="rojo">DIRECTA</b>
       </h2>
-      <h4 className="text-center my-3 nomd nolg noxl gothambook">
+      <h4 className="text-center my-3 nomd nolg noxl gothambook negro">
         RADIOGRAFÍA <b className="azul">DIRECTA</b>
       </h4>
       <Carousel indicators={false} className="noxs nosm" nextIcon={<span className="positionnextlg"><img src={nextn} width="25"></img></span>}
@@ -212,10 +210,10 @@ const Equipos = () => {
         </Carousel>
       </div>
        {/* FIN RADIODIRECTA SMALL */}
-      <h2 className="text-center my-5 pt-5 noxs nosm gothambook">
+      <h2 className="text-center my-5 pt-5 noxs nosm gothambook NEGRO">
         RADIOGRAFÍA <b className="rojo">COMPUTARIZADA</b>
       </h2>
-      <h4 className="text-center my-5 nomd nolg noxl gothambook">
+      <h4 className="text-center my-5 nomd nolg noxl gothambook NEGRO">
         RADIOGRAFÍA <b className="rojo">COMPUTARIZADA</b>
       </h4>
       <Carousel indicators={false} className="noxs nosm" nextIcon={<span className="positionnextlg"><img src={nextn} width="25"></img></span>}

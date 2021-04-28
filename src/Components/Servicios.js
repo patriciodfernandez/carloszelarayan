@@ -33,10 +33,10 @@ const Servicios = () => {
           className="nosm noxs my-0 capturatitulosleft"
           height="50px"
         ></img>
-        <h1 className="text-center algunosclients nosm noxs gothambook">
+        <h1 className="text-center algunosclients nosm noxs gothambook negro">
           NUESTROS <b className="gothambold">SERVICIOS</b>
         </h1>
-        <h3 className="text-center nomd nolg noxl gothambook">
+        <h3 className="text-center nomd nolg noxl gothambook negro">
           NUESTROS <b className="gothambold">SERVICIOS</b>
         </h3>
       </div>

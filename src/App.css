@@ -17,11 +17,11 @@ html{
 .gris {
   background-color: #d8d8d8;
 }
-.negro {
+.negroheader {
   background-color: #202020;
 }
-.negroo {
-  background-color: black;
+.negro {
+  color: black;
 }
 .rojo {
   color: #cc3a31;
@@ -126,10 +126,10 @@ html{
     margin-top: 50px;
     margin-bottom:45px;
   }
-  .paddingclients{
+  /* .paddingclients{
     padding-top: 50px;
     padding-bottom: 45px;
-  }
+  } */
   .flechasSlider{
     width:17px;
   }

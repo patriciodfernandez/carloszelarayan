@@ -103,6 +103,7 @@ const Contacto = () => {
           </div>
         </div>
       </div>
+      {/* FIN PORTADA */}
       <div className="row no-gutters">
         <div className="col-md-5 gris">
           <img
@@ -112,7 +113,7 @@ const Contacto = () => {
             height="50px"
           ></img>
           <div className="p-5 mt-4 margencontactoo">
-            <h4 className="mb-3 gothambook">
+            <h4 className="mb-3 gothambook negro">
               <FontAwesomeIcon
                 className="mr-2 azul"
                 icon={faPhoneAlt}
@@ -126,7 +127,7 @@ const Contacto = () => {
               rel="noopener noreferrer"
               className="letrasfooter text-dark"
             >
-              <h4 className="mb-3 textButton gothambook">
+              <h4 className="mb-3 textButton gothambook negro">
                 <FontAwesomeIcon
                   className="mr-2 azul"
                   icon={faWhatsapp}
@@ -141,28 +142,28 @@ const Contacto = () => {
               rel="noopener noreferrer"
               className="text-dark"
             >
-              <h4 className="mb-3 textButton gothambook">
+              <h4 className="mb-3 textButton gothambook negro">
                 <FontAwesomeIcon
                   className="mr-2 azul"
                   icon={faMapMarkerAlt}
                   size="1x"
                 />
-                <b className="gothambold">Castelli 69</b>
+                <b className="gothambold negro">Castelli 69</b>
                 <br></br> San Miguel de Tucumán<br></br> Tucumán | T4000
               </h4>
             </a>
-            <h4 className="mb-3 gothambook">
+            <h4 className="mb-3 gothambook negro">
               <FontAwesomeIcon className="mr-2 azul" icon={faAt} size="1x" />
               info@crz.com.ar
             </h4>
           </div>
         </div>
         <div className="col-md-7 p-5">
-          <h2 className="margencontacto gothambold">
+          <h2 className="margencontacto gothambold negro">
           CONTACTO
           </h2>
           <div className="mt-4 formcontacto">
-            <h4 className="mb-3 gothammedium">
+            <h4 className="mb-3 gothammedium negro">
               <FontAwesomeIcon
                 icon={faEnvelope}
                 className="mr-1 azul"
@@ -179,7 +180,7 @@ const Contacto = () => {
             <Form noValidate validated={validated} onSubmit={handleSubmit}>
             <input type="hidden" name="contact_number" />
               <Form.Group controlId="fullName">
-                <Form.Label className="lead gothambook">Apellido y Nombre</Form.Label>
+                <Form.Label className="lead gothambook negro">Apellido y Nombre</Form.Label>
                 <Form.Control
                   required
                   onChange={(e) => setNombreConsultor(e.target.value)}
@@ -190,7 +191,7 @@ const Contacto = () => {
                 />
               </Form.Group>
               <Form.Group controlId="teléfono">
-                <Form.Label className="lead gothambook">Teléfono</Form.Label>
+                <Form.Label className="lead gothambook negro">Teléfono</Form.Label>
                 <Form.Control
                   required
                   onChange={(e) => setTelefonoConsultor(e.target.value)}
@@ -200,7 +201,7 @@ const Contacto = () => {
                 />
               </Form.Group>
               <Form.Group id="email">
-                <Form.Label className="lead gothambook">Email</Form.Label>
+                <Form.Label className="lead gothambook negro">Email</Form.Label>
                 <Form.Control
                   required
                   onChange={(e) => setEmailConsultor(e.target.value)}
@@ -212,7 +213,7 @@ const Contacto = () => {
               </Form.Group>
 
               <Form.Group controlId="exampleForm.ControlTextarea1">
-                <Form.Label className="lead gothambook">
+                <Form.Label className="lead gothambook negro">
                   Escribe tu consulta aquí
                 </Form.Label>
                 <Form.Control
@@ -224,14 +225,14 @@ const Contacto = () => {
                   onChange={(e) => setConsultaConsultor(e.target.value)}
                 />
               </Form.Group>
-              <Form.Text className="text-muted gothambook">
+              <Form.Text className="text-muted gothambook negro">
                 *No compartiremos estos datos con nadie
               </Form.Text>
               <div className="text-right">
                 <Button
                   type="Submit"
                   id="botonenviar"
-                  className="text-light mt-2 btn-lg gothambold"
+                  className="text-light mt-2 btn-lg gothambold negro"
                 >
                   ENVIAR
                 </Button>
@@ -242,8 +243,8 @@ const Contacto = () => {
       </div>
       {/* DONDE ESTAMOS */}
       <div className="my-4 py-5 d-flex titulos">
-          <h2 className="gothambook">
-          ¿DONDE <b className="gothambold">ESTAMOS?</b>
+          <h2 className="gothambook negro">
+          ¿DONDE <b className="gothambold negro">ESTAMOS?</b>
           </h2>
           <img
             src={captura}
