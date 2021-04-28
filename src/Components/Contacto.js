@@ -186,7 +186,7 @@ const Contacto = () => {
                   onChange={(e) => setNombreConsultor(e.target.value)}
                   type="text"
                   placeholder=""
-                  name="user_name"
+                  name="from_name"
                   className="forms"
                 />
               </Form.Group>
