@@ -4,7 +4,7 @@ import afga from "../../assets/Quienes_Somos.jpg";
 import afgamd from "../../assets/Quienes_Somosmd.jpg";
 import infraestructura from "../../assets/Infraestructura_IT.jpg";
 import infraestructuramd from "../../assets/Infraestructura_ITmd.jpg";
-import algunosclients from "../../assets/images/Algunos clients/Clientes_00.jpg";
+import algunosclients from "../../assets/images/algunosclients/Clientes_00.jpg";
 // import logo1 from "../../assets/images/Logo_01.png";
 // import logo2 from "../../assets/images/Logo_02.png";
 // import logo3 from "../../assets/images/Logo_03.png";
