@@ -43,24 +43,24 @@ const Contacto = () => {
         emailConsultor: emailConsultor,
       };
       //Enviamos los datos a backend - NO IMPLEMENTADO
-      // emailjs
-      //   .sendForm(
-      //     "allservice",
-      //     "template_MeHMf7Af",
-      //     e.target,
-      //     "user_nywctwSrox7g34oEeJ7uY"
-      //   )
+      emailjs
+        .sendForm(
+          "carloszid",
+          "contact_form",
+          e.target,
+          "user_nywctwSrox7g34oEeJ7uY"
+        )
       const template_params = {
-        to_name: "ALLSERVICE",
+        to_name: "CRZ Soluciones",
         from_name: nombreConsultor,
         user_email: emailConsultor,
         message_html: `Telefono: ${telefonoConsultor} -
          Email: ${emailConsultor} -
          Consulta: ${consultaConsultor}`,
       };
-      const service_id = "all_service";
-      const template_id = "template_eaf4j5h";
-      const user_id = "user_yUuRb4z5ygsanNtehIgfC";
+      const service_id = "carloszid";
+      const template_id = "contact_form";
+      const user_id = "user_nywctwSrox7g34oEeJ7uY";
       emailjs.send(service_id, template_id, template_params,user_id ).then(
           (result) => {
             Swal.fire(
