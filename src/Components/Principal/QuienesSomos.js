@@ -13,11 +13,11 @@ import algunosclients from "../../assets/images/Algunos clients/Clientes_00.jpg"
 import Carousel from "react-bootstrap/Carousel";
 import prevn from "../../assets/images/prevn.png";
 import nextn from "../../assets/images/nextn.png";
-import logo1 from "../../assets/images/Algunos clients/Logo_01.jpg";
-import logo2 from "../../assets/images/Algunos clients/Logo_02.jpg";
-import logo3 from "../../assets/images/Algunos clients/Logo_03.jpg";
-import logo4 from "../../assets/images/Algunos clients/Logo_04.jpg";
-import logo5 from "../../assets/images/Algunos clients/Logo_05.jpg";
+import logo1 from "../../assets/images/algunosclients/Logo_01.jpg";
+import logo2 from "../../assets/images/algunosclients/Logo_02.jpg";
+import logo3 from "../../assets/images/algunosclients/Logo_03.jpg";
+import logo4 from "../../assets/images/algunosclients/Logo_04.jpg";
+import logo5 from "../../assets/images/algunosclients/Logo_05.jpg";
 
 const QuienesSomos = () => {
   return (
