@@ -43,13 +43,6 @@ const Contacto = () => {
         emailConsultor: emailConsultor,
       };
       //Enviamos los datos a backend - NO IMPLEMENTADO
-      emailjs
-        .sendForm(
-          "carloszid",
-          "contact_form",
-          e.target,
-          "user_nywctwSrox7g34oEeJ7uY"
-        )
       const template_params = {
         to_name: "CRZ Soluciones",
         from_name: nombreConsultor,
@@ -61,7 +54,7 @@ const Contacto = () => {
       const service_id = "carloszid";
       const template_id = "contact_form";
       const user_id = "user_nywctwSrox7g34oEeJ7uY";
-      emailjs.send(service_id, template_id, template_params,user_id ).then(
+      emailjs.send(service_id, template_id, template_params, user_id ).then(
           (result) => {
             Swal.fire(
               "Enhorabuena!",
