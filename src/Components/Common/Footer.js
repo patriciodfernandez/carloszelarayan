@@ -91,7 +91,7 @@ const Footer = () => {
             <div className="col-sm-12 col-md-3 mt-4">
               <p className="gothambold azul mb-2">HORARIO</p>
               <p className="semibold mb-1">LUNES a VIERNES</p>
-              <p className="gothambook mb-1 letrachica">08:00 a 16:00</p>
+              <p className="gothambook mb-1 letrachica">08:00 a 14:00</p>
               <p className="semibold mb-1">SÁBADOS</p>
               <p className="letrachica gothambook">08:00 a 12:00</p>
             </div>
@@ -99,11 +99,26 @@ const Footer = () => {
             <div className="col-sm-12 col-md-3 mt-4">
               <p className="gothambold azul mb-2">TELÉFONO</p>
               <p className="semibold mb-1">FIJO</p>
-              <p className="gothambook pb-0 mb-0 letrachica">381 423-9995</p>
-              <p className="gothambook mb-1 letrachica">381 423-3773</p>
+              <p className="gothambook pb-0 mb-0 letrachica">0381 423-5386</p>
+              <p className="gothambook mb-1 letrachica">0381 423-4820</p>
               <p className="semibold pb-1 mb-0">CELULAR</p>
               <a
                 href="https://wa.me/5493816407353"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <p className="text-light letrachica mb-0">
+                  <FontAwesomeIcon
+                    className="gothambook mr-2"
+                    icon={faWhatsapp}
+                    color="#fff"
+                    size="1x"
+                  />
+                 381640-7353
+                </p>
+              </a>
+              <a
+                href="https://wa.me/5493813334499"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -114,7 +129,7 @@ const Footer = () => {
                     color="#fff"
                     size="1x"
                   />
-                  381 640-7353
+                 381333-4499
                 </p>
               </a>
             </div>
@@ -138,7 +153,7 @@ const Footer = () => {
                 className="nav-link text-light p-0"
               >
                 <p className="gothambold azul mb-2">CORREO</p>
-                <p className="letrachica">carloszelarayan@sinectis.com.ar</p>
+                <p className="letrachica">ventas@crzelarayan.com</p>
               </Nav.Link>
             </div>
             {/* FIN COL 2 los otros dos divs son row, container, bg-dark */}
