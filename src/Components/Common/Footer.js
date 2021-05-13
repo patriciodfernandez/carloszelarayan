@@ -91,9 +91,7 @@ const Footer = () => {
             <div className="col-sm-12 col-md-3 mt-4">
               <p className="gothambold azul mb-2">HORARIO</p>
               <p className="semibold mb-1">LUNES a VIERNES</p>
-              <p className="gothambook mb-1 letrachica">08:00 a 14:00</p>
-              <p className="semibold mb-1">SÁBADOS</p>
-              <p className="letrachica gothambook">08:00 a 12:00</p>
+              <p className="gothambook mb-1 letrachica">08:00 a 20:00</p>
             </div>
             {/* COL 3 */}
             <div className="col-sm-12 col-md-3 mt-4">
